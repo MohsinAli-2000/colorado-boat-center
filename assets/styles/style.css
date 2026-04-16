@@ -44,6 +44,16 @@ a:hover {
     src: url("../fonts/helvatica-pro/HelveticaNeueLTProLt.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "helvetica-bold";
+    src: url("../fonts/helvatica-pro/HelveticaNeueLTProBd.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "acumin-pro";
+    src: url("../fonts/acumin-pro/Acumin-RPro.otf") format("opentype");
+}
+
 .paraWrapper {
     margin: 40px 0;
 }
@@ -1112,32 +1122,26 @@ a:hover {
 
 /* Services Page Specific CSS */
 .pageTitleHeading {
-    color: var(--wt, #FFF);
+    color: #FFF;
     text-align: center;
-
-    /* h1 */
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: var(--wt, #FFF);
+    -webkit-text-stroke-color: #FFF;
     font-family: Cinzel;
     font-size: 80px;
     font-style: normal;
     font-weight: 400;
     line-height: 80px;
-    /* 100% */
 }
 
 .quickNav {
     color: #000;
     text-align: center;
     width: 20%;
-
-    /* h6 */
     font-family: Cinzel;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    /* 140% */
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -1764,6 +1768,49 @@ a:hover {
 .faqInnerWrapper {
     max-width: 1080px;
     margin: 0 auto;
+}
+
+.sellTradeFaqs {
+    margin-top: 72px;
+}
+
+.sellFaqItem {
+    padding: 24px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.sellTradeFaqs .sellFaqItem:last-child {
+    border-bottom: none;
+}
+
+.sellFaqQuestionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.sellFaqQuestion {
+    color: #000;
+    font-family: "helvetica-bold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.sellFaqAnswer {
+    display: none;
+    margin-top: 16px;
+}
+
+.sellFaqIcon {
+    position: relative;
+    transition: all 0.3s;
+}
+
+.rotateSellFaq {
+    transform: rotate(180deg);
 }
 
 /* sell trade page css ends here */
@@ -2564,6 +2611,370 @@ a:hover {
     margin-right: 5px;
 }
 
+/* contact page css starts here */
+.contactFormSection {
+    margin: 20px 0;
+    background-color: #E6F5FC;
+    padding: 80px 15px;
+}
+
+.heroParaWrap {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.contactFormWrapper {
+    max-width: 668px;
+    margin: 0 auto;
+}
+
+.contactMapWrapper {
+    min-height: 920px;
+}
+
+.contactMapWrapper iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 920px;
+}
+
+.contactMapSection {
+    margin-bottom: 20px;
+}
+
+.contactTextWrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.contactTextInnerWrap {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+/* contact page css ends here */
+
+/* brand page css starts here */
+.brandHeaderSection {
+    position: relative;
+    padding-top: 39%;
+}
+
+.brandHeaderSection::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 38, 38, 0.6);
+}
+
+.brandHeaderSection .brandHeaderImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.brandHeaderContent {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.brandHeaderContentWrapper {
+    max-width: 1080px;
+}
+
+.brandPageWrapper {
+    position: relative;
+}
+
+.brandCtaBar {
+    position: sticky;
+    left: 0;
+    width: 100%;
+    top: 72px;
+    background-color: #fff;
+    padding: 30px 0;
+    z-index: 999;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.brandCtaBar.is-fixed {
+    position: fixed;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: top 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.brandCtaBarPlaceholder {
+    height: 0;
+    transition: height 0.2s ease;
+}
+
+.brandCtaAndLogoWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.brandCtaBtnWrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.brandCtaBarLogoWrap {
+    max-width: 240px;
+}
+
+.brandCtaBarLogoWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.brandHeroSection {
+    margin-top: 64px;
+}
+
+.brandHeroTextWrap {
+    max-width: 520px;
+}
+
+.brandHeroImageWrap {
+    position: relative;
+    padding-top: 61%;
+    max-width: 640px;
+}
+
+.brandHeroImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.brandGalleryImageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.brandGalleryImageWrap {
+    position: relative;
+    padding-top: 22%;
+    width: calc((100% / 3) - 8px);
+}
+
+.brandGalleryImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.availableInventorySection {
+    margin: 120px 0;
+}
+
+.availableInventoryCard {
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.availableInventoryImageWrap {
+    position: relative;
+    padding-top: 57%;
+}
+
+.availableInventoryImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.availableInventoryTextWrap {
+    margin-top: 16px;
+}
+
+.availableInvetoryCardSpecs {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+
+.availableInvetorySpecsText {
+    color: #000;
+    font-family: Cinzel;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.viewLineUpSection {
+    margin: 120px 0;
+}
+
+.lineUplistings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 76px;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.lineUpListingTab {
+    color: #000;
+    text-align: center;
+    font-family: "acumin-pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.lineUpListingTab:hover{
+    color: #000;
+}
+
+.lineUpListingTab.activeTab {
+    color: #000;
+    text-align: center;
+    font-family: "acumin-pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.lineUpItemCard {
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.lineUpImageWrap {
+    position: relative;
+    padding-top: 56%;
+}
+
+.lineUpListingTab {
+    cursor: pointer;
+}
+
+.lineUpModelContainer {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+    pointer-events: none;
+}
+
+.lineUpModelContainer.activeSlide {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.lineUpImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lineUpItemTextWrap {
+    margin-top: 8px;
+}
+
+.lineUpTitle {
+    color: #000;
+    text-align: center;
+    font-family: "acumin-pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.lineUpModelItem{
+    position: relative;
+    max-width: 1680px;
+    margin: 0 auto;
+}
+
+.lineUpNavWrap{
+    max-width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.lineUpNavWrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.lineUpModelPrevButton{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.lineUpModelNextButton{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.lineUpModelWrapper {
+    cursor: grab;
+}
+
+.lineUpModelWrapper:active {
+    cursor: grabbing;
+}
+
+
+/* brand page css ends here */
+
 
 /* ========================================= */
 /* Customer Stories Page Styling Starts Here */
@@ -3356,6 +3767,14 @@ a:hover {
 
     .desktopHeader {
         display: none;
+    }
+
+    .brandCtaBar {
+        top: 64px;
+    }
+
+    .brandCtaBar.is-fixed {
+        top: 64px;
     }
 
     .mobileHeader {
