@@ -3841,17 +3841,67 @@ a:hover {
     text-transform: uppercase;
 }
 
-.marineInsuranceSection{
+.marineInsuranceSection {
     margin-top: 120px;
     margin-bottom: 40px;
 }
 
-.marineInsuranceHeadingWrap{
+.marineInsuranceHeadingWrap {
     margin-bottom: 64px;
 }
 
 /* financing page css ends here */
 
+/* owner resources page css starts here */
+.ownerHeaderWrap {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.formsDownloadSection {
+    margin: 64px 0 80px 0;
+}
+
+.formsDownloadCard {
+    border: 1px solid #D9D9D9;
+    padding: 33px;
+    margin: 0 12px;
+}
+
+.formHeaderWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.formDownloadCardTitle {
+    color: #000;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.postSaleFaqsSection{
+    background-color: #E6F5FC;
+    padding: 80px 0;
+}
+
+.postSaleFaqsWrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.ownerResourceFaqItem{
+    border-bottom: 1px solid #D9D9D9;
+}
+/* owner resources page css ends here */
 
 @media (max-width: 1440px) {
     .mainHeading {
