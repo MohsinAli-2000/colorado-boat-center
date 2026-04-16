@@ -647,7 +647,7 @@ a:hover {
     color: #000;
 }
 
-.familyBtn {
+.whiteBtn {
     display: inline-block;
     background: transparent;
     padding: 12px 30px;
@@ -665,7 +665,7 @@ a:hover {
     text-align: center;
 }
 
-.familyBtn:hover {
+.whiteBtn:hover {
     background: #009EDD;
     color: #000;
     text-decoration: none;
@@ -1846,7 +1846,7 @@ a:hover {
 
 .proshopResourcesHeading {
     color: #000;
-    font-family: 'cinzel';
+    font-family: Cinzel;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
@@ -1857,7 +1857,7 @@ a:hover {
 .proshopResourcesSubtext {
     color: #000;
     text-align: right;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -1909,7 +1909,7 @@ a:hover {
 
 .proshopOneStopHeading {
     color: #000;
-    font-family: 'cinzel';
+    font-family: Cinzel;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
@@ -1919,7 +1919,7 @@ a:hover {
 
 .proshopOneStopText {
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1938,7 +1938,7 @@ a:hover {
     border: 1px solid #009EDD;
     background: transparent;
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -1978,7 +1978,7 @@ a:hover {
 
 .proshopWhatsHeading {
     color: #000;
-    font-family: 'cinzel';
+    font-family: Cinzel;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
@@ -1987,7 +1987,7 @@ a:hover {
 
 .proshopWhatsSubtext {
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -2026,7 +2026,7 @@ a:hover {
 
 .proshopStoreItemLabel {
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -2043,7 +2043,7 @@ a:hover {
 
 .proshopCgHeading {
     color: #000;
-    font-family: 'cinzel';
+    font-family: Cinzel;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
@@ -2052,7 +2052,7 @@ a:hover {
 
 .proshopCgSubtext {
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -2118,7 +2118,7 @@ a:hover {
 
 .proshopChecklistHeading {
     color: #000;
-    font-family: 'cinzel';
+    font-family: Cinzel;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
@@ -2128,7 +2128,7 @@ a:hover {
 
 .proshopChecklistSubtext {
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -2142,7 +2142,7 @@ a:hover {
 }
 
 .proshopChecklistItems li {
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 22px;
     font-weight: 400;
     line-height: 32px;
@@ -2176,7 +2176,7 @@ a:hover {
     border: 1px solid #009EDD;
     background: transparent;
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -2202,7 +2202,7 @@ a:hover {
 
 .proshopAddonsHeading {
     color: #000;
-    font-family: 'cinzel';
+    font-family: Cinzel;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
@@ -2228,7 +2228,7 @@ a:hover {
 
 .proshopAddonLabel {
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -2265,7 +2265,7 @@ a:hover {
 
 .proshopVantageHeading {
     color: #000;
-    font-family: 'cinzel';
+    font-family: Cinzel;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
@@ -2275,7 +2275,7 @@ a:hover {
 
 .proshopVantageTagline {
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 32px;
     font-weight: 400;
     line-height: 36px;
@@ -2286,7 +2286,7 @@ a:hover {
 
 .proshopVantageText {
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -2298,7 +2298,7 @@ a:hover {
 }
 
 .proshopVantageList li {
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -2318,7 +2318,7 @@ a:hover {
 
 .proshopWomenWavesText {
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -2391,7 +2391,7 @@ a:hover {
 }
 
 .proshopMapPlaceholder span {
-    font-family: 'cinzel';
+    font-family: Cinzel;
     font-size: 64px;
     font-weight: 400;
     line-height: 64px;
@@ -2402,7 +2402,7 @@ a:hover {
 
 .proshopVisitHeading {
     color: #000;
-    font-family: 'cinzel';
+    font-family: Cinzel;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
@@ -2417,7 +2417,7 @@ a:hover {
 
 .proshopVisitAddress {
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -2426,7 +2426,7 @@ a:hover {
 }
 
 .proshopVisitPhone {
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 32px;
     font-weight: 400;
     color: #000;
@@ -2438,7 +2438,7 @@ a:hover {
 
 .proshopVisitHours {
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -2453,7 +2453,7 @@ a:hover {
 
 .proshopContactHeading {
     color: #000;
-    font-family: 'cinzel';
+    font-family: Cinzel;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
@@ -2464,7 +2464,7 @@ a:hover {
 
 .proshopContactSubtext {
     color: #000;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -2490,7 +2490,7 @@ a:hover {
     border: none;
     border-radius: 0;
     padding: 12px 16px;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -2514,7 +2514,7 @@ a:hover {
     border: none;
     border-radius: 0;
     padding: 12px 16px;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -2540,7 +2540,7 @@ a:hover {
     height: 48px;
     background: #000;
     color: #fff;
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-weight: 700;
     line-height: 16px;
@@ -2563,7 +2563,7 @@ a:hover {
 
 .proshopFaqsHeading {
     color: #000;
-    font-family: 'cinzel';
+    font-family: Cinzel;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
@@ -2588,7 +2588,7 @@ a:hover {
 }
 
 .proshopFaqQuestion {
-    font-family: 'manrope';
+    font-family: Manrope;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -2861,7 +2861,7 @@ a:hover {
     text-transform: uppercase;
 }
 
-.lineUpListingTab:hover{
+.lineUpListingTab:hover {
     color: #000;
 }
 
@@ -2932,32 +2932,32 @@ a:hover {
     line-height: 32px;
 }
 
-.lineUpModelItem{
+.lineUpModelItem {
     position: relative;
     max-width: 1680px;
     margin: 0 auto;
 }
 
-.lineUpNavWrap{
+.lineUpNavWrap {
     max-width: 40px;
     height: 40px;
     cursor: pointer;
 }
 
-.lineUpNavWrap img{
+.lineUpNavWrap img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.lineUpModelPrevButton{
+.lineUpModelPrevButton {
     position: absolute;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.lineUpModelNextButton{
+.lineUpModelNextButton {
     position: absolute;
     right: 0;
     top: 50%;
@@ -3662,6 +3662,196 @@ a:hover {
 
 /* Start Your Boat Journey Page Styling Ends Here */
 
+/* financing page css starts here */
+.financingHeaderSection {
+    position: relative;
+    padding-top: 50%;
+}
+
+.financingHeaderSection {
+    position: relative;
+    padding-top: 33%;
+}
+
+.financingHeaderSection::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 38, 38, 0.6);
+}
+
+.financingHeaderSection img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.financingHeaderContent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.financingHeroSection {
+    margin-top: 80px;
+}
+
+.whyFinanceCard {
+    max-width: 260px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.whyFinacnceIconWrap {
+    max-width: 64px;
+    margin: 0 auto;
+}
+
+.whyFinacnceIconWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.whyFinanceTitle {
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.financeBoatLoanSection {
+    margin: 120px 0;
+}
+
+.financeBoatLoanTextWrap {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.financeBoatLoanTextInnerWrap {
+    max-width: 600px;
+}
+
+.financeBoatFeaturesContainer {
+    margin-top: 40px;
+}
+
+.finaceFeauterIconWrap {
+    max-width: 24px;
+}
+
+.finaceFeauterIconWrap img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.financeFeatureTitle {
+    color: #000;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.financeBoatFeatureItem {
+    display: flex;
+    gap: 16px;
+}
+
+.financeBoatLoanImageWrap {
+    position: relative;
+    padding-top: 95%;
+    max-width: 640px;
+}
+
+.financeBoatLoanImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prefferedLinderSection {
+    padding: 75px 0;
+    background-color: #E6F5FC;
+    margin-bottom: 20px;
+}
+
+.prefferedLinderInnerWrap {
+    max-width: 924px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.linderParaWrap {
+    margin-left: 56px;
+}
+
+.tipsForSmoothSection {
+    padding: 80px 0;
+    background-color: #262626;
+}
+
+.financingTipsCard {
+    border-radius: 10px;
+    border: 1.049px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 40px 33px;
+    margin: 0 20px;
+}
+
+.financeTipsNumber {
+    color: #FFF;
+    font-family: Cinzel;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+.financeTipsTitle {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.marineInsuranceSection{
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.marineInsuranceHeadingWrap{
+    margin-bottom: 64px;
+}
+
+/* financing page css ends here */
+
 
 @media (max-width: 1440px) {
     .mainHeading {
@@ -3732,7 +3922,7 @@ a:hover {
     }
 
     .blueBtn,
-    .familyBtn {
+    .whiteBtn {
         font-size: 12px;
     }
 
