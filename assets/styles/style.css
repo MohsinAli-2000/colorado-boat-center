@@ -921,7 +921,7 @@ a:hover {
 }
 
 .footer {
-    padding-top: 120px;
+    padding-top: 112px;
     min-height: 688px;
 }
 
@@ -1292,7 +1292,7 @@ a:hover {
     margin-bottom: 40px;
 }
 
-.seasionStorageSection {}
+/* .seasionStorageSection {} */
 
 .pr-40 {
     padding-right: 40px;
@@ -1364,10 +1364,10 @@ a:hover {
     padding-bottom: 4%;
 }
 
-.logoServiceWrapper {
-    /* width: 400px;
-    height: 36px; */
-}
+/* .logoServiceWrapper {
+    width: 400px;
+    height: 36px;
+} */
 
 .logoServiceWrapper img {
     width: 100%;
@@ -2565,6 +2565,693 @@ a:hover {
 }
 
 
+/* ========================================= */
+/* Customer Stories Page Styling Starts Here */
+/* ========================================= */
+
+.csHeroSection {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.csHeroImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.csHeroOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 38, 38, 0.6);
+    z-index: 1;
+}
+
+.csIntroSection {
+    padding-top: 64px;
+    padding-bottom: 0;
+}
+
+.csIntroTextWrap {
+    max-width: 880px;
+}
+
+.csVerticalLine {
+    width: 1px;
+    height: 80px;
+    background-color: #000;
+    margin-top: 64px;
+    margin-bottom: -40px;
+    position: relative;
+    z-index: 2;
+}
+
+.csFeaturedSection {
+    padding-top: 0;
+}
+
+.csFeaturedVideoWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    height: 640px;
+    background-color: #C4C4C4;
+    overflow: hidden;
+}
+
+.csFeaturedVideoImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.csFeaturedPlayBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 76px;
+    height: 76px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.csFeaturedPlayBtn img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.csTestimonialsSection {
+    padding-top: 120px;
+    padding-bottom: 16px;
+}
+
+.csTestimonialsInner {
+    max-width: 1320px;
+}
+
+.csTestimonialsHeading {
+    font-family: "Cinzel";
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    color: #000;
+    margin-bottom: 48px !important;
+}
+
+.csTestimonialRow {
+    margin-bottom: 56px;
+}
+
+.csQuoteIcon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.csNameDate {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    max-width: 600px;
+}
+
+.csTestimonialText {
+    max-width: 600px;
+}
+
+.csStoryImgWrapper {
+    position: relative;
+    height: 240px;
+    background-color: #C4C4C4;
+    overflow: hidden;
+}
+
+.csStoryImgWrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.csStoryPlayBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.csStoryPlayBtn img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.csStoryName {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.csStoryDate {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+.csStoriesSection {
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+
+.csStoriesInner {
+    max-width: 1388px;
+}
+
+.csStoriesHeading {
+    font-family: "Cinzel";
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    color: #000;
+    margin-bottom: 48px !important;
+}
+
+.csStoriesRow {
+    margin-bottom: 64px;
+}
+
+/* Customer Stories Page Styling Ends Here */
+
+
+/* ================================================ */
+/* Start Your Boat Journey Page Styling Starts Here */
+/* ================================================ */
+
+.sybHeroSection {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.sybHeroImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sybHeroSubtitle {
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #fff;
+    text-shadow: 0.5px 0 0 #fff, 0 0.5px 0 #fff, -0.5px 0 0 #fff, 0 -0.5px 0 #fff;
+    margin-top: 40px !important;
+}
+
+.sybQuickNav {
+    background-color: #000;
+    padding: 8px 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sybQuickNavItem {
+    color: #fff;
+    font-family: "Cinzel";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 64px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 40px;
+}
+
+.sybQuickNavItem:hover {
+    color: #009EDD;
+    text-decoration: none;
+}
+
+.sybSectionLabel {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Manrope";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.sybFindFitCta {
+    padding-top: 64px;
+    padding-bottom: 48px;
+}
+
+.sybFindFitCta .mainHeading {
+    margin-bottom: 24px;
+}
+
+.sybDivider {
+    border-top: 1px solid #D9D9D9;
+    margin: 0;
+}
+
+.sybBoatTypesSection {
+    padding-bottom: 48px;
+}
+
+.sybBoatImgWrap {
+    position: relative;
+    height: 280px;
+    overflow: hidden;
+}
+
+.sybBoatImgWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sybBoatRow {
+    margin-bottom: 24px;
+}
+
+.sybScrollIcon {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.sybScrollTop {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    width: 64px;
+    height: 64px;
+    z-index: 99;
+    display: none;
+}
+
+.sybScrollTop img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.sybDirectionImgWrap {
+    position: relative;
+    padding-top: 75%;
+}
+
+.sybDirectionImgWrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sybDirectionContent {
+    max-width: 600px;
+    padding-left: 120px;
+}
+
+.sybDirectionContentLeft {
+    max-width: 600px;
+    padding-right: 120px;
+}
+
+.sybDirectionRow {
+    margin-bottom: 64px;
+}
+
+.sybDirectionRow:last-child {
+    margin-bottom: 0;
+}
+
+/* Pricing Section */
+.sybPricingSection {
+    padding: 116px 0 88px;
+}
+
+.sybPricingCard {
+    padding: 0;
+}
+
+.sybPricingHeader {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 16px;
+}
+
+.sybPricingIcon {
+    background-color: #E6F5FC;
+    width: 64px;
+    min-width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sybPricingIcon img {
+    width: 24px;
+    height: auto;
+}
+
+.sybPricingContent {
+    padding-left: 104px;
+}
+
+.sybFinanceImgWrap {
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+}
+
+.sybFinanceImgWrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sybDisclaimerBox {
+    background-color: #F7F7F7;
+    padding: 24px 40px;
+}
+
+.sybOwnershipSection {
+    padding: 0;
+    background: transparent;
+    margin-bottom: 64px;
+}
+
+.sybOwnershipRow {
+    min-height: 520px;
+}
+
+.sybOwnershipImgWrap {
+    position: relative;
+    padding-top: 0;
+    height: 100%;
+    min-height: 520px;
+}
+
+.sybOwnershipImgWrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sybOwnershipContent {
+    background-color: #262626;
+    height: 100%;
+    min-height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 80px;
+}
+
+.sybOwnershipList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sybOwnershipListItem {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.sybOwnershipIcon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.sybOwnershipLabel {
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.sybProcessSection {
+    padding: 88px 0 64px;
+    background-color: #E6F5FC;
+}
+
+.sybProcessContainer {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.sybProcessHeader {
+    margin-bottom: 64px;
+}
+
+.sybProcessSubtitle {
+    opacity: 0.6;
+    margin-bottom: 40px;
+}
+
+/* sybStepsRow - no extra styles needed */
+
+.sybStepCard {
+    border-left: 1px solid #000;
+    padding-left: 60px;
+    padding-top: 0;
+    height: 100%;
+}
+
+.sybStepNumber {
+    color: #000;
+    font-family: "Cinzel";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+    margin-bottom: 24px;
+}
+
+.sybStepTitle {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+/* What happens once you say "yes" Section */
+.sybSayYesSection {
+    padding: 80px 0 88px;
+}
+
+.sybSayYesContent {
+    max-width: 620px;
+}
+
+.sybSayYesImgWrap {
+    position: relative;
+    padding-top: 100%;
+}
+
+.sybSayYesImgWrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Delivery & Orientation Section */
+.sybDeliverySection {
+    position: relative;
+    min-height: 920px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sybDeliveryBgImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.sybDeliveryCardWrap {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 80px 280px 80px 0;
+}
+
+.sybDeliveryCard {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 80px;
+    width: 640px;
+    max-width: 100%;
+    min-height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sybNextStepSection {
+    padding: 88px 0 0;
+}
+
+.sybNextStepRow {
+    margin-top: 48px;
+}
+
+.sybNextStepCard {
+    position: relative;
+    overflow: hidden;
+    height: 280px;
+}
+
+.sybNextStepImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sybNextStepOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(180deg, rgba(38, 38, 38, 0) 0%, #262626 100%);
+    opacity: 0.8;
+    display: flex;
+    align-items: flex-end;
+    padding: 24px;
+}
+
+.sybNextStepLabel {
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.sybFaqSection {
+    padding: 96px 0 80px;
+}
+
+.sybFaqDesc {
+    margin-bottom: 48px;
+}
+
+.sybFaqContainer {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.sybFaqItem {
+    border-bottom: 1px solid #D9D9D9;
+    padding: 0;
+}
+
+.sybFaqQuestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    min-height: 75px;
+    padding: 24px 0;
+}
+
+.sybFaqQuestion strong {
+    font-family: "helvetica";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #000;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.sybFaqIcon {
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Start Your Boat Journey Page Styling Ends Here */
+
+
 @media (max-width: 1440px) {
     .mainHeading {
         font-size: 35px;
@@ -2979,6 +3666,203 @@ a:hover {
     .proshopMapPlaceholder span {
         font-size: 40px;
     }
+
+    /* Customer Stories Responsive - 991px */
+    .csHeroSection {
+        height: 400px;
+    }
+
+    .csFeaturedPlayBtn {
+        width: 56px;
+        height: 56px;
+    }
+
+    .csVerticalLine {
+        height: 60px;
+        margin-top: 40px;
+        margin-bottom: -30px;
+    }
+
+    .csIntroSection {
+        padding-top: 40px;
+    }
+
+    .csFeaturedVideoWrapper {
+        height: 450px;
+    }
+
+    .csTestimonialsSection {
+        padding-top: 80px;
+    }
+
+    .csTestimonialsHeading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .csTestimonialText {
+        max-width: 100%;
+    }
+
+    .csStoriesHeading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .csStoryImgWrapper {
+        height: 200px;
+    }
+
+    .csStoriesSection {
+        padding-top: 40px;
+    }
+
+    .csStoriesRow {
+        margin-bottom: 48px;
+    }
+
+    .csTestimonialRow {
+        margin-bottom: 40px;
+    }
+
+    /* Start Your Boat Journey Responsive - 991px */
+    .sybHeroSection {
+        height: 400px;
+    }
+
+    .sybQuickNav {
+        height: auto;
+        padding: 12px 20px;
+    }
+
+    .sybQuickNavItem {
+        font-size: 16px;
+        padding: 0 20px;
+        line-height: 48px;
+    }
+
+    .sybFindFitCta {
+        padding-top: 40px;
+        padding-bottom: 32px;
+    }
+
+    .sybBoatImgWrap {
+        height: 220px;
+    }
+
+    .sybScrollTop {
+        right: 20px;
+        bottom: 20px;
+        width: 48px;
+        height: 48px;
+    }
+
+    .sybDirectionContent,
+    .sybDirectionContentLeft {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 100%;
+    }
+
+    .sybDirectionRow {
+        margin-bottom: 48px;
+    }
+
+    .sybPricingSection {
+        padding: 60px 0 0;
+    }
+
+    .sybPricingHeader {
+        gap: 24px;
+    }
+
+    .sybPricingContent {
+        padding-left: 88px;
+    }
+
+    .sybFinanceImgWrap {
+        height: 280px;
+    }
+
+    .sybDeliverySection {
+        min-height: 600px;
+    }
+
+    .sybDeliveryCardWrap {
+        padding: 40px 30px 40px 0;
+    }
+
+    .sybDeliveryCard {
+        padding: 40px 30px;
+        min-height: auto;
+        width: 50%;
+    }
+
+    .sybSayYesSection {
+        padding: 50px 0;
+    }
+
+    .sybNextStepSection {
+        padding: 60px 0 0;
+    }
+
+    .sybNextStepRow {
+        margin-top: 32px;
+    }
+
+    .sybNextStepCard {
+        height: 240px;
+    }
+
+    .sybNextStepLabel {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .sybFaqSection {
+        padding: 60px 0 40px;
+    }
+
+    .sybStepNumber {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .sybStepTitle {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+
+    .sybStepCard {
+        padding-left: 24px;
+    }
+
+    .sybOwnershipContent {
+        padding: 40px 30px;
+        min-height: auto;
+    }
+
+    .sybOwnershipImgWrap {
+        min-height: 350px;
+    }
+
+    .sybOwnershipRow {
+        min-height: auto;
+    }
+
+    .sybProcessSection {
+        padding: 60px 0 40px;
+    }
+
+    .sybProcessContainer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .sybProcessHeader {
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -3049,6 +3933,108 @@ a:hover {
     .customerSays {
         padding: 40px;
     }
+
+    /* Customer Stories Responsive - 768px */
+    .csHeroSection {
+        height: 350px;
+    }
+
+    .csIntroSection {
+        padding-top: 30px;
+    }
+
+    .csVerticalLine {
+        margin-top: 30px;
+        margin-bottom: -20px;
+    }
+
+    .csFeaturedVideoWrapper {
+        height: 350px;
+    }
+
+    .csFeaturedPlayBtn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .csTestimonialsSection {
+        padding-top: 60px;
+    }
+
+    .csTestimonialsHeading {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .csStoriesSection {
+        padding-top: 40px;
+    }
+
+    .csStoriesHeading {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .csStoryImgWrapper {
+        height: 200px;
+    }
+
+    .csStoriesRow {
+        margin-bottom: 40px;
+    }
+
+    /* Start Your Boat Journey Responsive - 768px */
+    .sybHeroSection {
+        height: 350px;
+    }
+
+    .sybQuickNavItem {
+        font-size: 14px;
+        padding: 0 12px;
+        line-height: 40px;
+    }
+
+    .sybHeroSubtitle {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .sybBoatImgWrap {
+        height: 200px;
+    }
+
+    .sybFinanceImgWrap {
+        height: 240px;
+    }
+
+    .sybDeliverySection {
+        min-height: 500px;
+    }
+
+    .sybDeliveryCardWrap {
+        padding: 30px 20px 30px 0;
+    }
+
+    .sybDeliveryCard {
+        padding: 30px 20px;
+        width: 55%;
+    }
+
+    .sybSayYesSection {
+        padding: 40px 0;
+    }
+
+    .sybNextStepSection {
+        padding: 40px 0 0;
+    }
+
+    .sybNextStepCard {
+        height: 220px;
+    }
+
+    .sybFaqSection {
+        padding: 40px 0 30px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -3114,5 +4100,202 @@ a:hover {
     .quoteWrapper {
         width: 90%;
         padding: 40px 20px;
+    }
+
+    /* Customer Stories Responsive - 576px */
+    .csHeroSection {
+        height: 280px;
+    }
+
+    .csIntroSection {
+        padding-top: 24px;
+    }
+
+    .csFeaturedVideoWrapper {
+        height: 240px;
+    }
+
+    .csFeaturedPlayBtn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .csVerticalLine {
+        height: 40px;
+        margin-top: 24px;
+        margin-bottom: -20px;
+    }
+
+    .csTestimonialsSection {
+        padding-top: 40px;
+    }
+
+    .csTestimonialsHeading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .csStoryPlayBtn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .csStoriesHeading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .csStoryImgWrapper {
+        height: 180px;
+    }
+
+    .csStoriesRow {
+        margin-bottom: 32px;
+    }
+
+    .csTestimonialRow {
+        margin-bottom: 32px;
+    }
+
+    /* Start Your Boat Journey Responsive - 576px */
+    .sybHeroSection {
+        height: 280px;
+    }
+
+    .sybQuickNav {
+        display: none;
+    }
+
+    .sybBoatImgWrap {
+        height: 180px;
+    }
+
+    .sybFinanceImgWrap {
+        height: 200px;
+    }
+
+    .sybScrollIcon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sybPricingSection {
+        padding: 40px 0 0;
+    }
+
+    .sybPricingHeader {
+        gap: 16px;
+    }
+
+    .sybPricingIcon {
+        width: 48px;
+        min-width: 48px;
+        height: 48px;
+    }
+
+    .sybPricingContent {
+        padding-left: 64px;
+    }
+
+    .sybScrollTop {
+        width: 40px;
+        height: 40px;
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .sybDeliverySection {
+        min-height: auto;
+        align-items: flex-end;
+    }
+
+    .sybDeliveryCardWrap {
+        padding: 200px 15px 24px;
+        justify-content: center;
+    }
+
+    .sybDeliveryCard {
+        padding: 24px 15px;
+        min-height: auto;
+        width: 100%;
+    }
+
+    .sybSayYesSection {
+        padding: 30px 0;
+    }
+
+    .sybSayYesImgWrap {
+        padding-top: 75%;
+    }
+
+    .sybNextStepSection {
+        padding: 30px 0 0;
+    }
+
+    .sybNextStepRow {
+        margin-top: 24px;
+    }
+
+    .sybNextStepCard {
+        height: 200px;
+    }
+
+    .sybNextStepLabel {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .sybFaqSection {
+        padding: 30px 0 24px;
+    }
+
+    .sybFaqDesc {
+        margin-bottom: 24px;
+    }
+
+    .sybFaqQuestion strong {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .sybStepNumber {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .sybStepTitle {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 12px;
+    }
+
+    .sybStepCard {
+        padding-left: 16px;
+    }
+
+    .sybOwnershipContent {
+        padding: 30px 20px;
+    }
+
+    .sybOwnershipImgWrap {
+        min-height: 250px;
+    }
+
+    .sybOwnershipLabel {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .sybProcessSection {
+        padding: 40px 0 24px;
+    }
+
+    .sybProcessContainer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .sybProcessHeader {
+        margin-bottom: 24px;
     }
 }
