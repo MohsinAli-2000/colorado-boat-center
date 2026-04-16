@@ -31,4 +31,11 @@ $(document).ready(function(){
         });
     }
     // pro shop page code ends here
+
+    // sell trade page code starts here
+    $(".sellFaqQuestionHeader").on("click", function(){
+        $(this).find(".sellFaqIcon").toggleClass("rotateSellFaq")
+        $(this).next(".sellFaqAnswer").slideToggle()
+    })
+    // sell trade page code ends here
 })

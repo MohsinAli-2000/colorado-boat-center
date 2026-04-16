@@ -44,6 +44,11 @@ a:hover {
     src: url("../fonts/helvatica-pro/HelveticaNeueLTProLt.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "helvetica-bold";
+    src: url("../fonts/helvatica-pro/HelveticaNeueLTProBd.otf") format("opentype");
+}
+
 .paraWrapper {
     margin: 40px 0;
 }
@@ -1764,6 +1769,49 @@ a:hover {
 .faqInnerWrapper {
     max-width: 1080px;
     margin: 0 auto;
+}
+
+.sellTradeFaqs {
+    margin-top: 72px;
+}
+
+.sellFaqItem {
+    padding: 24px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.sellTradeFaqs .sellFaqItem:last-child {
+    border-bottom: none;
+}
+
+.sellFaqQuestionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.sellFaqQuestion {
+    color: #000;
+    font-family: "helvetica-bold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.sellFaqAnswer{
+    display: none;
+    margin-top: 16px;
+}
+
+.sellFaqIcon{
+    position: relative;
+    transition: all 0.3s;
+}
+
+.rotateSellFaq{
+    transform: rotate(180deg);
 }
 
 /* sell trade page css ends here */
