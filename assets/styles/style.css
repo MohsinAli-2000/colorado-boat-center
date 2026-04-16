@@ -1,0 +1,3118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+/* common css starts here */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure,
+ol,
+ul,
+dl,
+fieldset,
+pre {
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: "helvetica";
+    src: url("../fonts/helvetica-pro/HelveticaNeueLTProLt.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "helvetica-light";
+    src: url("../fonts/helvatica-pro/HelveticaNeueLTProLt.otf") format("opentype");
+}
+
+.paraWrapper {
+    margin: 40px 0;
+}
+
+.largeBlackPara {
+    color: #000;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.largeWhitePara {
+    color: #fff;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.regularBlackPara {
+    color: #000;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.regularWhitePara {
+    color: #fff;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* mobile nav css starts here */
+.mobileHeader {
+    display: none;
+    border-bottom: 1px solid rgba(125, 154, 175, 0.20);
+    background: #fff;
+    backdrop-filter: blur(10px);
+    padding: 8px 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 101;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.mobileNavBar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.mobileHamburger {
+    width: 40px;
+    cursor: pointer;
+}
+
+.mobileHamburger:hover .top,
+.mobileHamburger:hover .bottom {
+    width: 60%;
+}
+
+.mobileHamburger:hover .middle {
+    width: 100%;
+}
+
+.sideMobileLogoWrap {
+    max-width: 166px;
+}
+
+.sideMobileLogoWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mobileFavAndPhoneIcon {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+/* mobile nav css ends here */
+
+.hamburger {
+    width: 40px;
+    cursor: pointer;
+}
+
+.line {
+    display: block;
+    height: 2px;
+    background: #000;
+    margin: 10px 0;
+    transition: all 0.35s ease;
+}
+
+.top,
+.bottom {
+    width: 100%;
+}
+
+.middle {
+    width: 60%;
+}
+
+/* Hover animation */
+.hamburger:hover .top,
+.hamburger:hover .bottom {
+    width: 60%;
+}
+
+.hamburger:hover .middle {
+    width: 100%;
+}
+
+.desktopHeader {
+    height: 72px;
+    padding: 7px 0;
+    background-color: #fff;
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.menuIcon {
+    width: 30.222px;
+    height: 16px;
+    aspect-ratio: 17/9;
+}
+
+.headerLogo {
+    width: 216.724px;
+    height: 56px;
+    aspect-ratio: 216.72/56.00;
+}
+
+.footerLogo {
+    max-width: 290.724px;
+    height: 75px;
+}
+
+.footerLogo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.menuLogo {
+    display: flex;
+    gap: 130px;
+    align-items: center;
+}
+
+.menuItemList {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.menuItem {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.footerMenuItem {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.menuItemWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.phoneNumberWrapper {
+    color: #000;
+    text-align: center;
+    font-family: "helvetica";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+
+}
+
+.joinConversation {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+}
+
+.footerSubscribeForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+.footerSubscribeInput {
+    flex: 1;
+    min-width: 150px;
+    border: none;
+    background: transparent;
+    color: #000;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0;
+    outline: none;
+}
+
+.footerSubscribeInput::placeholder {
+    color: #000;
+    opacity: 0.6;
+}
+
+.footerBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    background-color: #F7F7F7;
+    margin-top: 108px;
+}
+
+.footerBottomList {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8px 0;
+}
+
+.footerBottomLink {
+    color: #000;
+    font-family: "helvetica";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    opacity: 0.6;
+}
+
+.footerBottomList li:not(:last-child)::after {
+    content: " | ";
+    margin: 0 15px;
+    opacity: 0.6;
+}
+
+.footerParaWrap {
+    max-width: 320px;
+}
+
+.footerSubscribeBtn {
+    border: none;
+    background: transparent;
+    color: #000;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 8px 0;
+}
+
+.borderRightFooter {
+    border-right: 1px solid #D9D9D9;
+}
+
+.marginBottomFooter {
+    margin-bottom: 20px;
+}
+
+.colorBlack {
+    color: #000 !important;
+}
+
+.paraText {
+    font-family: "Manrope";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cbcpoints li::before {
+    content: "• ";
+}
+
+/* Add custom */
+
+.phoneNumberWrapper img {
+    width: 14px;
+    height: 14px;
+    aspect-ratio: 1/1;
+}
+
+
+.homeHeaderMedia {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.homeHeaderSection {
+    position: relative;
+    height: calc(100vh - 72px);
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.specificHeight {
+    height: calc(100vh - 300px);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    background: linear-gradient(0deg, #262626 -0.11%, rgba(38, 38, 38, 0.00) 100%);
+    background-blend-mode: multiply;
+}
+
+.overlayBrands {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    opacity: 0.8;
+    background: linear-gradient(72deg, #262626 -0.03%, rgba(38, 38, 38, 0.00) 74.98%);
+    background-blend-mode: multiply;
+}
+
+.overlayBanner {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 99.40%;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(34, 34, 34, 0.00) 0%, rgba(34, 34, 34, 0.90) 100%);
+}
+
+.heroContent {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.heroLogo {
+    max-width: 200px;
+    height: auto;
+}
+
+.headerHeading {
+    color: #FFF;
+    text-align: center;
+    font-family: "Cinzel";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.heroButtons {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.blackBtn {
+    color: #fff;
+    padding: 15px 30px;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: #262626;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.blackBtn:hover {
+    background-color: #009EDD;
+    color: #fff;
+    text-decoration: none;
+}
+
+.darkBlackBtn {
+    color: #fff;
+    padding: 15px 30px;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: #000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.darkBlackBtn:hover {
+    background-color: #009EDD;
+    color: #fff;
+    text-decoration: none;
+}
+
+.pauseBtn {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    z-index: 2;
+    background: transparent;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.pauseBtn:hover {
+    opacity: 1;
+}
+
+.familySection {
+    position: relative;
+    width: 100%;
+    display: flex;
+    min-height: 920px;
+}
+
+.familyImg {
+    width: 100%;
+    min-height: 920px;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+
+.familyOverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(26, 26, 26, 0.85);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8%;
+    color: #fff;
+    z-index: 2;
+}
+
+.mainHeading {
+    color: #000;
+    font-family: "Cinzel";
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.mainWhiteHeading {
+    color: #FFF;
+    text-align: center;
+    font-family: Cinzel;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+.familySubHeading {
+    font-family: "Manrope";
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    line-height: 36px;
+    letter-spacing: 0.64px;
+}
+
+.familyText p {
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+}
+
+.familyText p:last-of-type {
+    margin-bottom: 15px;
+}
+
+
+.blueBtn {
+    display: inline-block;
+    background: transparent;
+    padding: 12px 30px;
+    color: #000;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    border: 1px solid #009EDD;
+    line-height: 16px;
+    text-align: center;
+}
+
+.blueBtn:hover {
+    color: #000;
+}
+
+.familyBtn {
+    display: inline-block;
+    background: transparent;
+    padding: 12px 30px;
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    border: 1px solid #009EDD;
+    line-height: 16px;
+    text-align: center;
+}
+
+.familyBtn:hover {
+    background: #009EDD;
+    color: #000;
+    text-decoration: none;
+    border-color: #009EDD;
+}
+
+.quoteSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quoteWrapper {
+    width: 65%;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.quoteHeading {
+    color: #000;
+    text-align: center;
+    font-family: "helvetica";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.quoteAuthor {
+    color: #000;
+    font-family: "helvetica";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.paraMainHeading {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.greyColor {
+    background-color: #F7F7F7;
+}
+
+.mb-40px {
+    margin-bottom: 40px !important;
+}
+
+.pr-40px {
+    padding-right: 40px !important;
+}
+
+.p-60px {
+    padding: 60px !important;
+}
+
+.brandImg {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    background: linear-gradient(72deg, #262626 -0.03%, rgba(38, 38, 38, 0.00) 74.98%);
+    background-blend-mode: multiply;
+    filter: brightness(0.6);
+}
+
+.repairImg {
+    position: relative;
+}
+
+.repairImg img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.serviceBrandSection {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.bannerImg {
+    width: 100%;
+    height: 992px;
+    object-fit: cover;
+}
+
+.px-8px {
+    padding-right: 8px !important;
+    padding-top: 8px !important;
+}
+
+.noPadding {
+    padding: 0px;
+}
+
+.singleBrand {
+    position: relative;
+}
+
+.brandLogoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.bannerLogoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.brandLogo {
+    width: 160px;
+    height: 36.538px;
+    aspect-ratio: 160.00/36.54;
+}
+
+.colorWhite {
+    color: #FFF;
+}
+
+.ctaShopNow {
+    color: #FFF;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1.6px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    text-transform: uppercase;
+}
+
+.latestArrivalSection {
+    padding: 120px 20px;
+}
+
+.newPreOwnd {
+    display: flex;
+    gap: 40px;
+}
+
+.text-color-black {
+    color: #000;
+}
+
+.textNew {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1.6px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    text-transform: uppercase;
+}
+
+.boatTag {
+    color: #000;
+    font-family: "Cinzel";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.boatTitle {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+}
+
+.boatImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.quoteIcon {
+    width: 40px;
+    height: 40px;
+    aspect-ratio: 1/1;
+}
+
+.customerQuote {
+    display: flex;
+    gap: 25px;
+}
+
+.customerSays {
+    padding: 120px 200px;
+    background-color: #E6F5FC;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.customerName {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.customerInfo {
+    gap: 25px;
+}
+
+.customerWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer {
+    padding-top: 120px;
+    min-height: 688px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.sideMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    background-color: #fff;
+    height: 100vh;
+    width: 420px;
+    padding: 32px 40px 32px 8%;
+    overflow-y: auto;
+    box-shadow: 8px 0 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s;
+    transform: translateX(-101%);
+}
+
+.sideMenuTogglerClass {
+    transform: translateX(0);
+}
+
+.backArrowWrap {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.backArrow {
+    max-width: 16px;
+    cursor: pointer;
+}
+
+.backArrow img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.sideMenuLinkList {
+    list-style: none;
+    padding: 40px 0;
+}
+
+.sideMenuLinkList li:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.sideMenuLink {
+    color: #1B2026;
+    font-family: "Gotham Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.sideMenuLink:hover {
+    color: #1B2026;
+}
+
+.sideMenu .sideMenuLinkList:not(:last-of-type) {
+    border-bottom: 1px solid rgba(110, 141, 166, 0.2);
+}
+
+.sideMenuSocialIconsWrap {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.mobileSideMenu {
+    width: 70vw;
+    height: 100vh;
+    background-color: #fff;
+    padding: 40px 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    overflow-y: auto;
+    transition: all 0.4s;
+    transform: translateX(-101%);
+    box-shadow: 8px 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.mobileSideMenuTogglerClass {
+    transform: translateX(0);
+}
+
+.mobileBackArrowWrap {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.mobileBackArrow {
+    max-width: 16px;
+    cursor: pointer;
+}
+
+.mobileBackArrow img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mobileBrandToggleBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.mobileSideMenuLink {
+    color: #1B2026;
+    font-family: Gotham;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.mobileSideMenuLink:hover {
+    color: #1B2026;
+}
+
+.mobileSideMenu .sideMenuLinkList:not(:last-of-type) {
+    border-bottom: 1px solid rgba(110, 141, 166, 0.2);
+}
+
+.mobileSideMenu .sideMenuLinkList li:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.mobileLocationToggleBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.mobileLocationMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 65vw;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #fff;
+    z-index: 105;
+    padding: 40px 30px 40px 5%;
+    box-shadow: 8px 0 20px rgba(0, 0, 0, 0.15);
+    transform: translateX(-101%);
+    transition: all 0.4s;
+}
+
+.mobileLocationTogglerClass {
+    transform: translateX(0);
+}
+
+.mobileLocationArrowWrap {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.mobileLocationArrow {
+    max-width: 16px;
+    cursor: pointer;
+}
+
+.mobileLocationArrow img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Services Page Specific CSS */
+.pageTitleHeading {
+    color: var(--wt, #FFF);
+    text-align: center;
+
+    /* h1 */
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: var(--wt, #FFF);
+    font-family: Cinzel;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    /* 100% */
+}
+
+.quickNav {
+    color: #000;
+    text-align: center;
+    width: 20%;
+
+    /* h6 */
+    font-family: Cinzel;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.serviceSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quickWrapper {
+    display: flex;
+    gap: 30px;
+    width: 90%;
+}
+
+.quickHr {
+    width: 40%;
+
+}
+
+.serviceCardImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.serviceCardHeading {
+    color: #000;
+
+    /* h4 */
+    font-family: "Manrope";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 140% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.serviceCardContent {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E6F5FC;
+    width: 91%;
+    position: absolute;
+    top: 82%;
+}
+
+.serviceCard {
+    position: relative;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+.adjustOverlay {
+    top: 0;
+    height: 100%;
+}
+
+.serviceBrandCard {
+    position: relative;
+}
+
+.brandBgImg img {
+    position: relative;
+    padding-top: 90%;
+}
+
+.brandBgImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.serviceBrandCard>img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(0.6);
+}
+
+.servicebrandLogoWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+}
+
+.servicelogo {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    object-fit: contain;
+}
+
+.textContentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 75px;
+}
+
+.advantageProgramSection {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #E6F5FC;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.marginHeading {
+    margin-bottom: 40px !important;
+}
+
+.headerProgram {
+    margin-bottom: 64px;
+}
+
+.cardProgram {
+    border-left: 1px solid black;
+    padding-left: 40px;
+}
+
+.programHeading {
+    color: #000;
+
+    /* h3 */
+    font-family: "Manrope";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 112.5% */
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.calenderImg {
+    margin-bottom: 40px;
+}
+
+.seasionStorageSection {}
+
+.pr-40 {
+    padding-right: 40px;
+}
+
+.seasionImgWrapper {
+    position: relative;
+    padding-top: 60%;
+}
+
+.seasionImgWrapper img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.requestServiceSection {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.requestImgWrapper {
+    position: relative;
+    padding-top: 87%;
+}
+
+.requestImgWrapper img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sideBar {
+    border-left: 2px solid #009EDD;
+}
+
+.requestContent {
+    padding-left: 15%;
+}
+
+.cbcConciergeSection {
+    background-color: #262626;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.cbcImgWrapper {
+    position: relative;
+    padding-top: 75%;
+}
+
+.cbcImgWrapper img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.serviceBrandLogos {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.logoServiceWrapper {
+    /* width: 400px;
+    height: 36px; */
+}
+
+.logoServiceWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.customGap {
+    gap: 24px;
+}
+
+/* sell trade page css starts here */
+.headerSection {
+    position: relative;
+    padding-top: 26%;
+}
+
+.headerSection::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: rgba(38, 38, 38, 0.6);
+}
+
+.headerMedia {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headerContent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 5;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.secondaryHeaderHeading {
+    color: #FFF;
+    text-align: center;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #FFF;
+    font-family: Cinzel;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.smallHeading {
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+}
+
+.smallHeadingWhite {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+}
+
+.headerHeadingWrap {
+    margin-bottom: 40px;
+}
+
+.smallerSection {
+    margin-top: 80px;
+}
+
+.smallerSectionTextWrap {
+    max-width: 720px;
+}
+
+.smallerSectionImageWrap {
+    position: relative;
+    padding-top: 58%;
+    max-width: 720px;
+}
+
+.smallerSectionImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fullWidthSection {
+    margin: 80px 0;
+}
+
+.fullWidthTextWrap {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.fullWidthTextInneWrap {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.fullWidthSecImageWrap {
+    position: relative;
+    padding-top: 80%;
+}
+
+.fullWidthSecImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blueBarList {
+    list-style: none;
+    padding-left: 8px;
+}
+
+.blueBarList li {
+    position: relative;
+    margin-bottom: 16px;
+    padding-left: 24px;
+}
+
+.blueBarList li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 2px;
+    height: 100%;
+    background-color: #009EDD;
+}
+
+.inspectionTextWrap {
+    background-color: #E6F5FC;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 40px 15px;
+}
+
+.inspectionTextInnerWrap {
+    max-width: 546px;
+    margin: 0 auto;
+}
+
+.inspectionImageWrap {
+    position: relative;
+    padding-top: 65%;
+    height: 100%;
+}
+
+.inspectionImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ourGoalSection {
+    margin: 80px 0;
+    padding: 0 15px;
+}
+
+.btnWrap {
+    margin-top: 40px;
+}
+
+.tradeVSconsignmentSection {
+    background-color: #F7F7F7;
+    padding: 80px 0;
+}
+
+.tradeIconWrap {
+    max-width: 64px;
+}
+
+.tradeIconWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.tradeVSconsignmentCard {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.howItWorksBorderLeft {
+    border-left: 1px solid #fff;
+}
+
+.howItWorksSection {
+    padding: 80px 0;
+    background-color: #262626;
+    margin-top: 80px;
+}
+
+.howItWorksHeadingWrap {
+    margin-bottom: 80px;
+}
+
+.howItWorksCard {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+}
+
+.stepNumberText {
+    color: #FFF;
+    font-family: Cinzel;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+.whySellSection {
+    margin-top: 20px;
+}
+
+.miniHeading {
+    color: #000;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.whySellTradeList li {
+    margin-bottom: 44px;
+}
+
+.whySellTradeImageWrap {
+    position: relative;
+    padding-top: 110%;
+}
+
+.whySellTradeImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sellTradeFormSection {
+    background-color: #E6F5FC;
+    padding: 115px 0;
+}
+
+.sellTradeFormTextWrap {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.sellTradeReachOutCard {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 40px;
+}
+
+.reachOutHeading {
+    color: #000;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.sellTradePhone {
+    color: #000;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+}
+
+.sellTradePhone:hover {
+    color: #000;
+}
+
+.reachOutCardIconWrap {
+    max-width: 40px;
+}
+
+.reachOutCardIconWrap img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.addressPara {
+    color: #000;
+    font-family: "helvetica";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.sellTradeFormWrapper {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.formFieldWrap {
+    margin-bottom: 20px;
+}
+
+.formField {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding: 12px 24px;
+    color: #000;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100%;
+}
+
+.formField:focus {
+    outline: 1px solid #009EDD;
+}
+
+.tradeConsignmentGuideLineSection {
+    margin: 80px 0;
+}
+
+.tradeGuideLinesContainer {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.faqsSection {
+    padding: 80px 0;
+    background-color: #F7F7F7;
+}
+
+.faqHeadingWrap {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.faqInnerWrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* sell trade page css ends here */
+
+
+/* ========================================= */
+/* Pro Shop Page Styling Starts Here         */
+/* ========================================= */
+
+.proshopHero {
+    position: relative;
+    height: calc(100vh - 300px);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.proshopHeroImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proshopResources {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.proshopResourcesHeading {
+    color: #000;
+    font-family: 'cinzel';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    margin-bottom: 0;
+}
+
+.proshopResourcesSubtext {
+    color: #000;
+    text-align: right;
+    font-family: 'manrope';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+
+.proshopResourceCard {
+    position: relative;
+    overflow: hidden;
+    height: 280px;
+}
+
+.proshopResourceCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proshopResourceOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 140px;
+    background: linear-gradient(180deg, rgba(38, 38, 38, 0) 0%, #262626 100%);
+    opacity: 0.9;
+}
+
+.proshopResourceLabel {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-family: "helvetica-light";
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 44px;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
+}
+
+.proshopOneStop {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.proshopOneStopHeading {
+    color: #000;
+    font-family: 'cinzel';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    margin-bottom: 40px;
+}
+
+.proshopOneStopText {
+    color: #000;
+    font-family: 'manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.proshopOneStopBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 268px;
+    height: 48px;
+    padding: 1px;
+    border: 1px solid #009EDD;
+    background: transparent;
+    color: #000;
+    font-family: 'manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.proshopOneStopBtn:hover {
+    background: #009EDD;
+    color: #fff;
+    text-decoration: none;
+}
+
+.proshopOneStopImgWrapper {
+    position: relative;
+    padding-top: 72%;
+}
+
+.proshopOneStopImgWrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proshopWhatsInStore {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #F7F7F7;
+}
+
+.proshopWhatsHeading {
+    color: #000;
+    font-family: 'cinzel';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+.proshopWhatsSubtext {
+    color: #000;
+    font-family: 'manrope';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.proshopStoreLogos {
+    gap: 20px;
+}
+
+.proshopBrandLogo {
+    height: 120px;
+    width: auto;
+    object-fit: contain;
+}
+
+.proshopBrandLogoSmall {
+    height: 56px;
+    width: auto;
+    object-fit: contain;
+}
+
+.proshopStoreImgWrapper {
+    position: relative;
+    padding-top: 50%;
+}
+
+.proshopStoreImgWrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proshopStoreItemLabel {
+    color: #000;
+    font-family: 'manrope';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+.proshopCoastGuard {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.proshopCgHeading {
+    color: #000;
+    font-family: 'cinzel';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+.proshopCgSubtext {
+    color: #000;
+    font-family: 'manrope';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.proshopCgRow {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.proshopCgCol {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.proshopCgImgWrapper {
+    position: relative;
+    padding-top: 127.27%;
+}
+
+.proshopCgImgWrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proshopChecklist {
+    padding: 0;
+}
+
+.proshopChecklistRow {
+    min-height: 800px;
+}
+
+.proshopChecklistImgCol {
+    padding: 0;
+}
+
+.proshopChecklistImgWrapper {
+    height: 100%;
+    min-height: 800px;
+}
+
+.proshopChecklistImgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proshopChecklistContent {
+    background-color: #E6F5FC;
+    padding: 80px 60px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.proshopChecklistHeading {
+    color: #000;
+    font-family: 'cinzel';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    margin-bottom: 24px;
+}
+
+.proshopChecklistSubtext {
+    color: #000;
+    font-family: 'manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.proshopChecklistItems {
+    list-style: none;
+    padding: 0;
+}
+
+.proshopChecklistItems li {
+    font-family: 'manrope';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000;
+    padding: 8px 0 8px 24px;
+    border-left: none;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.proshopChecklistItems li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 24px;
+    background: #009EDD;
+}
+
+.proshopChecklistBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
+    width: 280px;
+    height: 48px;
+    padding: 1px;
+    border: 1px solid #009EDD;
+    background: transparent;
+    color: #000;
+    font-family: 'manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 40px;
+}
+
+.proshopChecklistBtn:hover {
+    background: #009EDD;
+    color: #fff;
+    text-decoration: none;
+}
+
+.proshopAddons {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.proshopAddonsHeading {
+    color: #000;
+    font-family: 'cinzel';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.proshopAddonImgWrapper {
+    position: relative;
+    padding-top: 57%;
+    border: 1px solid #262626;
+}
+
+.proshopAddonImgWrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proshopAddonLabel {
+    color: #000;
+    font-family: 'manrope';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.proshopVantage {
+    padding: 0;
+}
+
+.proshopVantageImgWrapper {
+    height: 100%;
+    min-height: 880px;
+}
+
+.proshopVantageImgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proshopVantageContent {
+    background-color: #F7F7F7;
+    padding: 80px 60px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.proshopVantageHeading {
+    color: #000;
+    font-family: 'cinzel';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    margin-bottom: 40px;
+}
+
+.proshopVantageTagline {
+    color: #000;
+    font-family: 'manrope';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.proshopVantageText {
+    color: #000;
+    font-family: 'manrope';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.proshopVantageList {
+    list-style: none;
+    padding: 0;
+}
+
+.proshopVantageList li {
+    font-family: 'manrope';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    padding: 4px 0;
+}
+
+.proshopVantageList li::before {
+    content: "• ";
+    color: #000;
+}
+
+.proshopWomenWaves {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.proshopWomenWavesText {
+    color: #000;
+    font-family: 'manrope';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.proshopWomenWavesImgWrapper {
+    position: relative;
+    padding-top: 72%;
+}
+
+.proshopWomenWavesImgWrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proshopWmwLogoOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 260px;
+    height: 260px;
+    z-index: 1;
+    background: rgba(38, 38, 38, 0.9);
+    aspect-ratio: 1/1;
+}
+
+.proshopWmwLogoOverlay img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proshopImageStrip {
+    background-color: #262626;
+    padding: 80px 0;
+}
+
+.proshopStripSlider .item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+.proshopStripImg {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+.proshopVisit {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.proshopMapPlaceholder {
+    background-color: #D9D9D9;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proshopMapPlaceholder span {
+    font-family: 'cinzel';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    color: #000;
+    text-align: center;
+    opacity: 0.2;
+}
+
+.proshopVisitHeading {
+    color: #000;
+    font-family: 'cinzel';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+}
+
+.proshopVisitTextWrap {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.proshopVisitAddress {
+    color: #000;
+    font-family: 'manrope';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.proshopVisitPhone {
+    font-family: 'manrope';
+    font-size: 32px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 36px;
+}
+
+.proshopVisitHours {
+    color: #000;
+    font-family: 'manrope';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.proshopContact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #E6F5FC;
+}
+
+.proshopContactHeading {
+    color: #000;
+    font-family: 'cinzel';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.proshopContactSubtext {
+    color: #000;
+    font-family: 'manrope';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    max-width: 880px;
+    margin: 0 auto 40px;
+}
+
+.proshopFormWrap {
+    max-width: 656px;
+    margin: 0 auto;
+}
+
+.proshopFormRow {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.proshopFormInput {
+    width: 320px;
+    height: 48px;
+    border: none;
+    border-radius: 0;
+    padding: 12px 16px;
+    font-family: 'manrope';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: #fff;
+    color: #000;
+    flex: 1;
+}
+
+.proshopFormInput::placeholder {
+    color: #000;
+    opacity: 0.6;
+}
+
+.proshopFormInput:focus {
+    outline: 1px solid #009EDD;
+}
+
+.proshopFormTextarea {
+    width: 100%;
+    height: 96px;
+    border: none;
+    border-radius: 0;
+    padding: 12px 16px;
+    font-family: 'manrope';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: #fff;
+    color: #000;
+    resize: none;
+}
+
+.proshopFormTextarea::placeholder {
+    color: #000;
+    opacity: 0.6;
+}
+
+.proshopFormTextarea:focus {
+    outline: 1px solid #009EDD;
+}
+
+.proshopSendBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 48px;
+    background: #000;
+    color: #fff;
+    font-family: 'manrope';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.proshopSendBtn:hover {
+    background: #009EDD;
+}
+
+.proshopFaqs {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.proshopFaqsHeading {
+    color: #000;
+    font-family: 'cinzel';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.proshopFaqsContainer {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.proshopFaqItem {
+    border-bottom: 1px solid #D9D9D9;
+    padding: 24px 0;
+}
+
+.proshopFaqItem:last-child {
+    border-bottom: none;
+}
+
+.proshopFaqQuestion {
+    font-family: 'manrope';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.proshopFaqAnswer {
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.proshopFaqIcon {
+    color: #009EDD;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+
+@media (max-width: 1440px) {
+    .mainHeading {
+        font-size: 35px;
+    }
+
+    .footerSubscribeForm {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: none;
+    }
+
+    .footerSubscribeInput {
+        border-bottom: 1px solid #000;
+        padding-bottom: 8px;
+    }
+
+    .menuLogo {
+        gap: 65px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .pr-40px {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        padding-top: 40px;
+    }
+
+    .menuLogo {
+        gap: 32px;
+    }
+
+    .menuItemWrapper {
+        gap: 36px;
+    }
+
+    .menuItemList {
+        gap: 24px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .borderRightFooter {
+        border-right: none;
+    }
+
+    .menuLogo {
+        gap: 25px;
+    }
+
+    .menuItemWrapper {
+        gap: 20px;
+    }
+
+    .paraMainHeading {
+        font-size: 18px;
+    }
+
+    .quoteHeading {
+        font-size: 18px;
+    }
+
+    .blueBtn,
+    .familyBtn {
+        font-size: 12px;
+    }
+
+    .familySection {
+        flex-direction: column;
+    }
+
+    .familyImg {
+        min-height: 400px;
+        height: 400px;
+    }
+
+    .familyOverlay {
+        position: static;
+        width: 100%;
+        padding: 50px 6%;
+    }
+}
+
+@media (max-width: 991px) {
+    .logoServiceWrapper {
+        max-width: 300px;
+    }
+
+    .footerLogo {
+        margin: 0 auto;
+    }
+
+    .footerParaWrap {
+        margin: 0 auto;
+    }
+
+    .desktopHeader {
+        display: none;
+    }
+
+    .mobileHeader {
+        display: block;
+    }
+
+    .proshopResources,
+    .proshopOneStop,
+    .proshopWhatsInStore,
+    .proshopCoastGuard,
+    .proshopAddons,
+    .proshopWomenWaves,
+    .proshopVisit,
+    .proshopContact,
+    .proshopFaqs {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .proshopResourcesHeading {
+        font-size: 42px;
+        line-height: 48px;
+        margin-bottom: 10px;
+    }
+
+    .proshopResourcesSubtext {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .proshopResourceLabel {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .proshopOneStopHeading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .proshopCgHeading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .proshopCgSubtext {
+        font-size: 18px;
+    }
+
+    .proshopChecklist {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .proshopChecklistContent {
+        padding: 40px 30px;
+    }
+
+    .proshopChecklistImgWrapper {
+        min-height: 400px;
+    }
+
+    .proshopChecklistHeading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .proshopChecklistItems li {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .proshopVantageContent {
+        padding: 40px 30px;
+    }
+
+    .proshopVantageImgWrapper {
+        min-height: 350px;
+    }
+
+    .proshopVantageHeading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .proshopVantageTagline {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .proshopAddonsHeading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .proshopAddonLabel {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .proshopVisitHeading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .proshopContactHeading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .proshopMapPlaceholder {
+        height: 400px;
+    }
+
+    .proshopWmwLogoOverlay {
+        width: 200px;
+        height: 200px;
+    }
+
+    .proshopFaqsHeading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .proshopStripImg,
+    .proshopStripSlider .item img {
+        height: 350px;
+    }
+
+    .proshopImageStrip {
+        padding: 40px 0;
+    }
+
+    .proshopResourceCard {
+        height: 200px;
+    }
+
+    .proshopResourceLabel {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .proshopResourcesHeading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .proshopResourcesSubtext {
+        font-size: 16px;
+    }
+
+    .proshopOneStopHeading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .proshopWhatsHeading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .proshopWhatsSubtext {
+        font-size: 16px;
+    }
+
+    .proshopStoreItemLabel {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .proshopBrandLogo {
+        height: 60px;
+    }
+
+    .proshopBrandLogoSmall {
+        height: 30px;
+    }
+
+    .proshopCgHeading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .proshopCgSubtext {
+        font-size: 16px;
+    }
+
+    .proshopBrandLogo {
+        height: 80px;
+    }
+
+    .proshopBrandLogoSmall {
+        height: 40px;
+    }
+
+    .proshopStoreItemLabel {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .proshopWhatsHeading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .proshopWhatsSubtext {
+        font-size: 18px;
+    }
+
+    .proshopVantageContent {
+        padding: 30px 20px;
+    }
+
+    .proshopVantageImgWrapper {
+        min-height: 280px;
+    }
+
+    .proshopVantageHeading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .proshopVantageTagline {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .proshopChecklistHeading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .proshopChecklistContent {
+        padding: 30px 20px;
+    }
+
+    .proshopChecklistImgWrapper {
+        min-height: 300px;
+    }
+
+    .proshopChecklistItems li {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .proshopAddonsHeading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .proshopAddonLabel {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .proshopStripImg,
+    .proshopStripSlider .item img {
+        height: 150px;
+    }
+
+    .proshopVisitHeading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .proshopContactHeading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .proshopMapPlaceholder {
+        height: 350px;
+    }
+
+    .proshopWmwLogoOverlay {
+        width: 180px;
+        height: 180px;
+    }
+
+    .proshopFaqsHeading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .proshopVisitHeading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .proshopContactHeading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .proshopFormRow {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .proshopFormInput {
+        width: 100%;
+    }
+
+    .proshopVisitPhone {
+        font-size: 24px;
+    }
+
+    .proshopMapPlaceholder span {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding-top: 20px;
+    }
+
+    .p-60px {
+        padding: 40px !important;
+    }
+
+    .pr-40px {
+        margin-bottom: 25px;
+    }
+
+    .mb-40px {
+        margin-bottom: 25px !important;
+    }
+
+    .menuItem {
+        display: none;
+    }
+
+    .phoneNum {
+        display: none;
+    }
+
+    .headerHeading {
+        font-size: 36px;
+    }
+
+    .heroLogo {
+        max-width: 150px;
+    }
+
+    .heroButtons {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .blackBtn {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .familySection {
+        flex-direction: column;
+    }
+
+    .familyImg {
+        min-height: 400px;
+        height: 400px;
+    }
+
+    .familyOverlay {
+        position: static;
+        width: 100%;
+        padding: 50px 6%;
+    }
+
+    .familySubHeading {
+        font-size: 16px;
+    }
+
+    .customerSays {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+
+    .logoServiceWrapper {
+        width: 250px;
+    }
+
+    .customerWrapper {
+        justify-content: center;
+    }
+
+    .p-60px {
+        padding: 30px !important;
+    }
+
+    .menuItem {
+        display: none;
+    }
+
+    .phoneNum {
+        display: none;
+    }
+
+    .menuLogo {
+        gap: 15px;
+    }
+
+    .homeHeaderSection {
+        min-height: 500px;
+    }
+
+    .headerHeading {
+        font-size: 28px;
+    }
+
+    .heroLogo {
+        max-width: 120px;
+    }
+
+    .blackBtn {
+        padding: 12px 20px;
+        font-size: 12px;
+    }
+
+    .familyImg {
+        min-height: 250px;
+        height: 250px;
+    }
+
+    .mainHeading {
+        font-size: 30px;
+    }
+
+    .familyOverlay {
+        padding: 40px 6%;
+    }
+
+    .quoteWrapper {
+        width: 90%;
+        padding: 40px 20px;
+    }
+}

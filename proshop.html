@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proshop | Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+        integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/styles/style.css">
+
+
+</head>
+
+<body>
+    <header class="desktopHeader">
+        <nav class="d-flex justify-content-between align-items-center px-xl-5 px-3">
+            <div class="menuLogo">
+                <!-- <img src="./assets/images/home/ic-menu.svg" class="menuIcon" alt="Hamburger"> -->
+                 <div class="hamburger">
+                    <span class="line top"></span>
+                    <span class="line middle"></span>
+                    <span class="line bottom"></span>
+                </div>
+                <img src="./assets/images/home/header-logo.svg" class="headerLogo" alt="logo">
+            </div>
+            <div class="d-flex justify-content-between menuItemWrapper">
+                <ul class="menuItemList">
+                    <li><a class="menuItem" href="javascript:void(0)">Boats</a></li>
+                    <li><a class="menuItem" href="javascript:void(0)">Service</a></li>
+                    <li><a class="menuItem" href="javascript:void(0)">History & people</a></li>
+                </ul>
+                
+                
+                
+
+                <a href="javascript:void(0)" class="phoneNumberWrapper"><img src="./assets/images/home/ic-phone.svg" alt="Phone"> <span
+                        class="phoneNum">970.663.6473</span> </a>
+                <a href="javascript:void(0)" class="searchWrapper"><img src="./assets/images/home/ic-search.svg" alt="Search"></a>
+
+            </div>
+        </nav>
+    </header>
+
+    <header class="mobileHeader">
+        <div class="mobileNavBar">
+            <div class="mobileHamburger">
+                <span class="line top"></span>
+                <span class="line middle"></span>
+                <span class="line bottom"></span>
+            </div>
+
+            <div class="sideMobileLogoWrap">
+                <a href="/"><img src="./assets/images/home/header-logo.svg" alt="site-logo"></a>
+            </div>
+
+            <div class="mobileFavAndPhoneIcon">
+                <a href="tel:+19548330125"><img src="./assets/images/home/ic-phone.svg" alt="Phone"></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="proshopHero">
+        <img src="./assets/images/proshop/hero-proshop.webp" alt="Pro Shop Hero" class="proshopHeroImg">
+        <div class="overlay"></div>
+        <div class="heroContent">
+            <h1 class="pageTitleHeading">Pro Shop</h1>
+            <div class="heroButtons">
+                <a href="#" class="blackBtn">Visit Pro Shop</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Resources Section -->
+    <section class="proshopResources">
+        <div class="container-fluid col-lg-10">
+            <div class="d-flex justify-content-between align-items-end flex-wrap mb-4">
+                <h2 class="proshopResourcesHeading">Product Resources</h2>
+                <p class="proshopResourcesSubtext">Quickly find what you need and want for your boat.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="proshopResourceCard">
+                        <img src="./assets/images/proshop/whats-in-store.webp" alt="What's In Store">
+                        <div class="proshopResourceOverlay"></div>
+                        <span class="proshopResourceLabel">What's In Store</span>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="proshopResourceCard">
+                        <img src="./assets/images/proshop/boaters-checklist.webp" alt="Coast Guard Requirements">
+                        <div class="proshopResourceOverlay"></div>
+                        <span class="proshopResourceLabel">Coast Guard Requirements</span>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="proshopResourceCard">
+                        <img src="./assets/images/proshop/coast-guard.webp" alt="Boater's Checklist">
+                        <div class="proshopResourceOverlay"></div>
+                        <span class="proshopResourceLabel">Boater's Checklist</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- One-Stop Shop Section -->
+    <section class="proshopOneStop">
+        <div class="container-fluid col-lg-10">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="proshopOneStopHeading">Your One-Stop Shop<br>for Boating Gear</h2>
+                    <p class="proshopOneStopText">Colorado Boat Center's Pro Shop offers one of the best selections of boating gear and accessories in Colorado, backed by knowledgeable staff who are experienced local boaters and experts in the products they sell. Along with helping customers outfit their boats with the best equipment, the Pro Shop also serves as a hub for boating education, hosting how-to training and seminars to help customers become more confident and capable on the water.</p>
+                    <a href="#" class="proshopOneStopBtn">Contact the Pro Shop</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="proshopOneStopImgWrapper">
+                        <img src="./assets/images/proshop/one-stop-shop.webp" alt="One Stop Shop for Boating Gear">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's In Store Section -->
+    <section class="proshopWhatsInStore">
+        <div class="container-fluid col-lg-10">
+            <div class="d-flex justify-content-between align-items-start flex-wrap mb-2">
+                <div>
+                    <h2 class="proshopWhatsHeading">What's In Store</h2>
+                    <p class="proshopWhatsSubtext mt-3">Our fully stocked Pro Shop has everything you need for fun times on the water.</p>
+                </div>
+                <div class="d-flex align-items-center proshopStoreLogos">
+                    <img src="./assets/images/proshop/hl-logo.webp" alt="H/L Logo" class="proshopBrandLogo">
+                    <img src="./assets/images/proshop/ho-logo.webp" alt="HO Logo" class="proshopBrandLogoSmall">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="proshopStoreItem">
+                        <div class="proshopStoreImgWrapper">
+                            <img src="./assets/images/proshop/safety-gear.webp" alt="Safety Gear">
+                        </div>
+                        <p class="proshopStoreItemLabel">Safety Gear</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="proshopStoreItem">
+                        <div class="proshopStoreImgWrapper">
+                            <img src="./assets/images/proshop/wake-surf-boards.webp" alt="Wake & Surf Boards">
+                        </div>
+                        <p class="proshopStoreItemLabel">Wake & Surf Boards</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="proshopStoreItem">
+                        <div class="proshopStoreImgWrapper">
+                            <img src="./assets/images/proshop/waterskies-tubes.webp" alt="Waterskies & Tubes">
+                        </div>
+                        <p class="proshopStoreItemLabel">Waterskies & Tubes</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="proshopStoreItem">
+                        <div class="proshopStoreImgWrapper">
+                            <img src="./assets/images/proshop/ropes.webp" alt="Ropes">
+                        </div>
+                        <p class="proshopStoreItemLabel">Ropes</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="proshopStoreItem">
+                        <div class="proshopStoreImgWrapper">
+                            <img src="./assets/images/proshop/boat-cleaners.webp" alt="Boat Cleaners">
+                        </div>
+                        <p class="proshopStoreItemLabel">Boat Cleaners</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="proshopStoreItem">
+                        <div class="proshopStoreImgWrapper">
+                            <img src="./assets/images/proshop/dockline-fenders.webp" alt="Dockline/Fenders">
+                        </div>
+                        <p class="proshopStoreItemLabel">Dockline/Fenders</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="proshopStoreItem">
+                        <div class="proshopStoreImgWrapper">
+                            <img src="./assets/images/proshop/anchors.webp" alt="Anchors">
+                        </div>
+                        <p class="proshopStoreItemLabel">Anchors</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="proshopStoreItem">
+                        <div class="proshopStoreImgWrapper">
+                            <img src="./assets/images/proshop/trailer-fittings.webp" alt="Trailer Fittings">
+                        </div>
+                        <p class="proshopStoreItemLabel">Trailer Fittings</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="proshopStoreItem">
+                        <div class="proshopStoreImgWrapper">
+                            <img src="./assets/images/proshop/props.webp" alt="Props">
+                        </div>
+                        <p class="proshopStoreItemLabel">Props</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coast Guard Requirements Section -->
+    <section class="proshopCoastGuard">
+        <div class="container-fluid col-lg-10">
+            <h2 class="proshopCgHeading">Coast Guard Requirements</h2>
+            <p class="proshopCgSubtext mt-3">Ensure your time on the water is safe and enjoyable. We provide all the essential Coast Guard safety gear.</p>
+            <div class="row proshopCgRow">
+                <div class="col-lg-3 col-md-6 mb-4 proshopCgCol">
+                    <div class="proshopCgItem">
+                        <div class="proshopCgImgWrapper">
+                            <img src="./assets/images/proshop/life-vest.webp" alt="USCG Approved Life Vest">
+                        </div>
+                        <p class="proshopStoreItemLabel">USCG Approved Life Vest Per Person</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 proshopCgCol">
+                    <div class="proshopCgItem">
+                        <div class="proshopCgImgWrapper">
+                            <img src="./assets/images/proshop/fire-extinguisher.webp" alt="Fire Extinguisher">
+                        </div>
+                        <p class="proshopStoreItemLabel">Fire Extinguisher</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 proshopCgCol">
+                    <div class="proshopCgItem">
+                        <div class="proshopCgImgWrapper">
+                            <img src="./assets/images/proshop/throw-cushion.webp" alt="Throw Cushion">
+                        </div>
+                        <p class="proshopStoreItemLabel">Throw Cushion Attached to a 25ft Rope</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 proshopCgCol">
+                    <div class="proshopCgItem">
+                        <div class="proshopCgImgWrapper">
+                            <img src="./assets/images/proshop/sounding-device.webp" alt="Sounding Device">
+                        </div>
+                        <p class="proshopStoreItemLabel">Sounding Device: Whistle or Blowhorn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boater's Checklist Section -->
+    <section class="proshopChecklist">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters proshopChecklistRow">
+                <div class="col-lg-6 proshopChecklistImgCol">
+                    <div class="proshopChecklistImgWrapper">
+                        <img src="./assets/images/proshop/checklist-boat.webp" alt="Boater's Checklist">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="proshopChecklistContent">
+                        <h2 class="proshopChecklistHeading">Boater's Checklist</h2>
+                        <p class="proshopChecklistSubtext">Everything you need, nothing you forgot. From safety gear to the small details that make the day easier.</p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul class="proshopChecklistItems">
+                                    <li>Coast Guard Package</li>
+                                    <li>Anchor & Anchor chain</li>
+                                    <li>Spare boat plug</li>
+                                    <li>2 Shackles</li>
+                                    <li>100' anchor rope</li>
+                                    <li>Boat fenders (2-4)</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="proshopChecklistItems">
+                                    <li>Fender ropes (2-4)</li>
+                                    <li>Dock ropes (2)</li>
+                                    <li>Ski Flag</li>
+                                    <li>First aid kit</li>
+                                    <li>Babes interior/exterior boat wash</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#" class="proshopChecklistBtn"><i class="fa fa-download"></i> Boating Checklist</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Barletta Add-Ons Section -->
+    <section class="proshopAddons">
+        <div class="container-fluid col-lg-10">
+            <h2 class="proshopAddonsHeading">Popular Barletta Add-Ons</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="proshopAddonImgWrapper">
+                        <img src="./assets/images/proshop/kumma-grills.webp" alt="Kumma Grills">
+                    </div>
+                    <p class="proshopAddonLabel">Kumma Grills</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="proshopAddonImgWrapper">
+                        <img src="./assets/images/proshop/fender-baskets.webp" alt="Fender Baskets">
+                    </div>
+                    <p class="proshopAddonLabel">Fender Baskets</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="proshopAddonImgWrapper">
+                        <img src="./assets/images/proshop/nauti-table.webp" alt="Nauti Table">
+                    </div>
+                    <p class="proshopAddonLabel">Nauti Table</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-4">
+                    <div class="proshopAddonImgWrapper">
+                        <img src="./assets/images/proshop/sureshade-bimini.webp" alt="Sureshade Bimini Extension">
+                    </div>
+                    <p class="proshopAddonLabel">Sureshade Bimini Extension</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="proshopAddonImgWrapper">
+                        <img src="./assets/images/proshop/vantage-wrap.webp" alt="Vantage Wrap">
+                    </div>
+                    <p class="proshopAddonLabel">Vantage Wrap</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vantage Pontoon Wraps & Guard Section -->
+    <section class="proshopVantage">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <div class="proshopVantageImgWrapper">
+                        <img src="./assets/images/proshop/vantage-install.webp" alt="Vantage Pontoon Wraps">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="proshopVantageContent">
+                        <h2 class="proshopVantageHeading">Vantage Pontoon Wraps & Guard</h2>
+                        <p class="proshopVantageTagline">Refresh the look. Add protection.</p>
+                        <p class="proshopVantageText mt-3"><strong>What it does:</strong></p>
+                        <ul class="proshopVantageList">
+                            <li>Updates the look of your pontoons with custom colors and finishes</li>
+                            <li>Gives your boat a cleaner, more personalized feel</li>
+                            <li>Helps protect against everyday wear, scratches, and dock contact</li>
+                        </ul>
+                        <p class="proshopVantageText mt-3">It's one of the simplest ways to make your boat feel new again, whether you're updating an older pontoon or adding a custom touch to your new boat.</p>
+                        <p class="proshopVantageText mt-2">All installs are done in-house.</p>
+                        <a href="#" class="proshopOneStopBtn mt-4">Contact the Pro Shop</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Women Making Waves Section -->
+    <section class="proshopWomenWaves">
+        <div class="container-fluid col-lg-10">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <p class="proshopWomenWavesText"><strong>Since 2004,</strong> Colorado Boat Center has hosted Women Making Waves, a hands-on boating seminar designed to help women build confidence and skills on the water. Its popularity led to the creation of Men in the Know, a similar program for men. Both events provide a relaxed, supportive learning environment where participants can practice essential boating skills—including trailering, launching, docking, knot tying, and water safety—guided by the knowledgeable CBC team.</p>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="proshopWomenWavesImgWrapper">
+                        <img src="./assets/images/proshop/women-making-waves.webp" alt="Women Making Waves">
+                        <div class="proshopWmwLogoOverlay">
+                            <img src="./assets/images/proshop/wmw-logo.webp" alt="Women Making Waves Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Strip Slider Section -->
+    <section class="proshopImageStrip">
+        <div class="owl-carousel proshopStripSlider">
+            <div class="item">
+                <img src="./assets/images/proshop/strip-1.webp" alt="Pro Shop Strip 1" class="proshopStripImg">
+            </div>
+            <div class="item">
+                <img src="./assets/images/proshop/strip-2.webp" alt="Pro Shop Strip 2" class="proshopStripImg">
+            </div>
+            <div class="item">
+                <img src="./assets/images/proshop/strip-3.webp" alt="Pro Shop Strip 3" class="proshopStripImg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit the Pro Shop Section -->
+    <section class="proshopVisit">
+        <div class="container-fluid col-lg-10">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="proshopMapPlaceholder">
+                        <span>MAP</span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="proshopVisitTextWrap">
+                        <h2 class="proshopVisitHeading">Visit the<br>Pro Shop</h2>
+                        <p class="proshopVisitAddress mt-4">3850 SE Frontage Rd, Johnstown, CO 80534</p>
+                        <p class="proshopVisitPhone mt-2">970-663-6473</p>
+                        <p class="proshopVisitHours mt-3">HOURS</p>
+                        <p class="proshopVisitHours">Sun & Mon: Closed</p>
+                        <p class="proshopVisitHours">Tue, Wed, Thu & Fri: 9:00AM – 5:00PM*</p>
+                        <p class="proshopVisitHours">Sat: 8:00AM – 5:00PM*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Pro Shop Section -->
+    <section class="proshopContact">
+        <div class="container-fluid">
+            <h2 class="proshopContactHeading">Contact Pro Shop</h2>
+            <p class="proshopContactSubtext">Have questions about gear, watersports equipment, or boating essentials? Reach out to the Colorado Boat Center Pro Shop team. We're here to help you find exactly what you need for your next day on the water.</p>
+            <div class="proshopFormWrap">
+                <form class="proshopContactForm">
+                    <div class="proshopFormRow">
+                        <input type="text" class="proshopFormInput" placeholder="First Name" aria-label="First Name">
+                        <input type="text" class="proshopFormInput" placeholder="Last Name" aria-label="Last Name">
+                    </div>
+                    <div class="proshopFormRow">
+                        <input type="email" class="proshopFormInput" placeholder="Email" aria-label="Email">
+                        <input type="tel" class="proshopFormInput" placeholder="Phone" aria-label="Phone">
+                    </div>
+                    <div class="proshopFormRow">
+                        <textarea class="proshopFormTextarea" placeholder="Message" aria-label="Message"></textarea>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button type="button" class="proshopSendBtn">Send Request</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pro Shop FAQs Section -->
+    <section class="proshopFaqs">
+        <div class="proshopFaqsContainer">
+            <h2 class="proshopFaqsHeading">Pro Shop FAQs</h2>
+
+            <div class="proshopFaqItem">
+                <p class="proshopFaqQuestion"><span class="proshopFaqIcon">Q.</span> What products can I find in the CBC Pro Shop?</p>
+                <p class="proshopFaqAnswer"><span class="proshopFaqIcon">A.</span> Our Pro Shop carries a wide selection of boating gear, watersports equipment, safety items, accessories, and essentials to help you get the most out of every day on the water.</p>
+            </div>
+
+            <div class="proshopFaqItem">
+                <p class="proshopFaqQuestion"><span class="proshopFaqIcon">Q.</span> Do you carry watersports gear?</p>
+                <p class="proshopFaqAnswer"><span class="proshopFaqIcon">A.</span> Yes! We stock equipment for popular watersports including wakeboarding, tubing, and other towable activities.</p>
+            </div>
+
+            <div class="proshopFaqItem">
+                <p class="proshopFaqQuestion"><span class="proshopFaqIcon">Q.</span> Can your staff help me choose the right gear?</p>
+                <p class="proshopFaqAnswer"><span class="proshopFaqIcon">A.</span> Absolutely. Our knowledgeable team members are experienced boaters who can recommend the best products based on your boat, activities, and experience level.</p>
+            </div>
+
+            <div class="proshopFaqItem">
+                <p class="proshopFaqQuestion"><span class="proshopFaqIcon">Q.</span> Do you carry safety equipment?</p>
+                <p class="proshopFaqAnswer"><span class="proshopFaqIcon">A.</span> Yes, we offer essential safety gear such as life jackets, throwable devices, and other boating safety products.</p>
+            </div>
+
+            <div class="proshopFaqItem">
+                <p class="proshopFaqQuestion"><span class="proshopFaqIcon">Q.</span> Can I purchase replacement accessories for my boat?</p>
+                <p class="proshopFaqAnswer"><span class="proshopFaqIcon">A.</span> Yes. Our Pro Shop carries a variety of replacement accessories and boating essentials to keep your boat fully equipped.</p>
+            </div>
+
+            <div class="proshopFaqItem">
+                <p class="proshopFaqQuestion"><span class="proshopFaqIcon">Q.</span> Do you offer gear for beginners?</p>
+                <p class="proshopFaqAnswer"><span class="proshopFaqIcon">A.</span> Definitely. Our team can help first-time boaters select the right gear and equipment to start enjoying the water safely and confidently.</p>
+            </div>
+
+            <div class="proshopFaqItem">
+                <p class="proshopFaqQuestion"><span class="proshopFaqIcon">Q.</span> Can I ask questions about boating equipment before buying?</p>
+                <p class="proshopFaqAnswer"><span class="proshopFaqIcon">A.</span> Of course. Our staff is always happy to answer questions and help you understand which gear will work best for your needs.</p>
+            </div>
+
+            <div class="proshopFaqItem">
+                <p class="proshopFaqQuestion"><span class="proshopFaqIcon">Q.</span> Where is the Pro Shop located?</p>
+                <p class="proshopFaqAnswer"><span class="proshopFaqIcon">A.</span> The Pro Shop is conveniently located at Colorado Boat Center, making it easy to stop in while shopping for boats, scheduling service, or preparing for your next outing.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-10 col-lg-11 mx-auto">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-4 mb-5 mb-lg-0 borderRightFooter">
+                                <div class="text-center text-lg-left">
+                                    <div class="footerLogo">
+                                        <img src="assets/images/home/header-logo.svg" alt="Footer Logo">
+                                    </div>
+                                    <div class="footerParaWrap">
+                                        <p class="paraMainHeading mt-3">Your wife called and said it was OK to buy a boat...your kids are
+                                            texting too</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-8">
+                                <div class="container-fluid">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-4 mb-4 mb-md-0 text-center text-md-left borderRightFooter order-2 order-md-1 px-4">
+                                            <h4 class="footerMenuItem mb-4">BOATS</h4>
+                                            <ul>   
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">New Boats For Sale</a></li>
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Pre-Owned Boats for Sale</a></li>
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Pontoon boats</a></li>
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Sport Fish Boats</a></li>
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Runabouts</a></li>
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Sell My Boat</a></li>
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Get Financing</a></li>
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Service Center</a></li>
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Storage</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 mb-4 mb-md-0 text-center text-md-left borderRightFooter order-3 order-md-2 px-4">
+                                            <h4 class="footerMenuItem mb-4">COMPANY</h4>
+                                            <ul>   
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Pro Shop</a></li>
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Events</a></li>
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">News & Articles</a></li>
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Our History</a></li>
+                                                <li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-4 mb-4 mb-md-0 text-center text-md-left px-4 order-1 order-md-3">
+                                            <h4 class="joinConversation text-center text-md-left">Join the<br>conversation</h4>
+                                            <div class="footerSubscribeForm">
+                                                <input type="email" class="footerSubscribeInput" placeholder="Enter Email" aria-label="Enter Email">
+                                                <button type="submit" class="footerSubscribeBtn">SUBSCRIBE</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>            
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footerBottom">
+            <ul class="footerBottomList">
+                <li><a href="javascript:void(0)" class="footerBottomLink">Copyrights © 2026 Colorado Boat Center. All Rights
+                        Reserved.</a></li>
+                <li><a href="/privacy-policy" class="footerBottomLink">Privacy Policy</a></li>
+                <li><a href="javascript:void(0)" class="footerBottomLink">Accessibility</a></li>
+                <li><a target="_blank" href="https://mdsbrand.com/" class="footerBottomLink">Powered by MDS Brand</a></li>
+            </ul>
+        </div>
+    </footer>
+
+     <!-- footer ends here -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
