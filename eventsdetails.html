@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details | Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <!-- Desktop Header -->
+    <header class="desktopHeader">
+        <nav class="d-flex justify-content-between align-items-center px-xl-5 px-3">
+            <div class="menuLogo">
+                <div class="hamburger"><span class="line top"></span><span class="line middle"></span><span class="line bottom"></span></div>
+                <img src="./assets/images/home/header-logo.svg" class="headerLogo" alt="logo">
+            </div>
+            <div class="d-flex justify-content-between menuItemWrapper">
+                <ul class="menuItemList">
+                    <li><a class="menuItem" href="javascript:void(0)">Boats</a></li>
+                    <li><a class="menuItem" href="javascript:void(0)">Service</a></li>
+                    <li><a class="menuItem" href="javascript:void(0)">History & people</a></li>
+                </ul>
+                <a href="javascript:void(0)" class="phoneNumberWrapper"><img src="./assets/images/home/ic-phone.svg" alt="Phone"> <span class="phoneNum">970.663.6473</span></a>
+                <a href="javascript:void(0)" class="searchWrapper"><img src="./assets/images/home/ic-search.svg" alt="Search"></a>
+            </div>
+        </nav>
+    </header>
+    <header class="mobileHeader">
+        <div class="mobileNavBar">
+            <div class="mobileHamburger"><span class="line top"></span><span class="line middle"></span><span class="line bottom"></span></div>
+            <div class="sideMobileLogoWrap"><a href="/"><img src="./assets/images/home/header-logo.svg" alt="site-logo"></a></div>
+            <div class="mobileFavAndPhoneIcon"><a href="tel:+19706636473"><img src="./assets/images/home/ic-phone.svg" alt="Phone"></a></div>
+        </div>
+    </header>
+
+    <!-- Hero Banner with Event Title Bar -->
+    <section class="edHeroBanner">
+        <img src="./assets/images/eventsdetails/ed-hero-bg.webp" alt="Event" class="edHeroBannerImg">
+        <div class="edHeroOverlay"></div>
+        <div class="edTitleBar">
+            <div class="container-fluid col-xl-10">
+                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                    <h2 class="edEventTitle">Event title Boat Show Promotion</h2>
+                    <a href="#edRegistration" class="edRegisterBtn">Register</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Description -->
+    <section class="edDescSection">
+        <div class="container-fluid col-xl-10">
+            <h3 class="smallHeading text-left mb-3">Description</h3>
+            <p class="regularBlackPara mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="regularBlackPara">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+        </div>
+    </section>
+
+    <!-- Event Details Cards -->
+    <section class="edDetailsCards">
+        <div class="container-fluid col-xl-10">
+            <h2 class="mainHeading text-center mb-5">Event Details</h2>
+            <div class="row mb-4">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="edCard">
+                        <div class="d-flex align-items-center mb-3" style="gap: 12px;">
+                            <img src="./assets/images/eventsdetails/icon-when.webp" alt="When" class="edCardIcon">
+                            <h3 class="edCardTitle mb-0">When</h3>
+                        </div>
+                        <p class="regularBlackPara mb-1">Saturday, April 12, 2026</p>
+                        <p class="regularBlackPara mb-0">Sunday, April 13, 2026</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="edCard">
+                        <div class="d-flex align-items-center mb-3" style="gap: 12px;">
+                            <img src="./assets/images/eventsdetails/icon-times.webp" alt="Times" class="edCardIcon">
+                            <h3 class="edCardTitle mb-0">Times</h3>
+                        </div>
+                        <p class="regularBlackPara mb-1">Saturday: 9:00 AM - 6:00 PM</p>
+                        <p class="regularBlackPara mb-0">Sunday: 10:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="edCard">
+                        <div class="d-flex align-items-center mb-3" style="gap: 12px;">
+                            <img src="./assets/images/eventsdetails/icon-where.webp" alt="Where" class="edCardIcon">
+                            <h3 class="edCardTitle mb-0">Where</h3>
+                        </div>
+                        <p class="regularBlackPara mb-1">Horseshoe Bay Marina</p>
+                        <p class="regularBlackPara mb-1">100 Hi Circle North</p>
+                        <p class="regularBlackPara mb-0">Horseshoe Bay, TX 78657</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="edCard">
+                        <div class="d-flex align-items-center mb-3" style="gap: 12px;">
+                            <img src="./assets/images/eventsdetails/icon-admission.webp" alt="Admission" class="edCardIcon">
+                            <h3 class="edCardTitle mb-0">Admission</h3>
+                        </div>
+                        <p class="regularBlackPara mb-1">FREE Entry</p>
+                        <p class="regularBlackPara mb-1">VIP Experience: $50</p>
+                        <p class="regularBlackPara mb-0"><em>Includes lunch & exclusive demos</em></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Parking Card - Full Width -->
+            <div class="edCard edCardFull">
+                <div class="d-flex align-items-center mb-3" style="gap: 12px;">
+                    <img src="./assets/images/eventsdetails/icon-parking.webp" alt="Parking" class="edCardIcon">
+                    <h3 class="edCardTitle mb-0">Parking Information</h3>
+                </div>
+                <p class="regularBlackPara mb-2">Free parking is available at the Horseshoe Bay Marina parking lot. Additional overflow parking will be available at the nearby community center, with complimentary shuttle service to the event entrance.</p>
+                <p class="regularBlackPara mb-0">Valet parking is available for VIP ticket holders at the main entrance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Strip - 2 rows x 3 columns -->
+    <section class="edGallerySection">
+        <div class="row" style="margin: 0;">
+            <div class="col-lg-4 col-md-6 px-1 mb-2"><div class="edGalleryItem"><img src="./assets/images/eventsdetails/gallery1.webp" alt="Gallery"></div></div>
+            <div class="col-lg-4 col-md-6 px-1 mb-2"><div class="edGalleryItem"><img src="./assets/images/eventsdetails/gallery2.webp" alt="Gallery"></div></div>
+            <div class="col-lg-4 col-md-6 px-1 mb-2"><div class="edGalleryItem"><img src="./assets/images/eventsdetails/gallery3.webp" alt="Gallery"></div></div>
+            <div class="col-lg-4 col-md-6 px-1 mb-2"><div class="edGalleryItem"><img src="./assets/images/eventsdetails/gallery4.webp" alt="Gallery"></div></div>
+            <div class="col-lg-4 col-md-6 px-1 mb-2"><div class="edGalleryItem"><img src="./assets/images/eventsdetails/gallery5.webp" alt="Gallery"></div></div>
+            <div class="col-lg-4 col-md-6 px-1 mb-2"><div class="edGalleryItem"><img src="./assets/images/eventsdetails/gallery6.webp" alt="Gallery"></div></div>
+        </div>
+    </section>
+
+    <!-- Brands Represented -->
+    <section class="edBrandsSection">
+        <div class="container-fluid col-xl-10">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <h3 class="smallHeading text-left mb-0">Brands Represented</h3>
+                <div class="d-flex align-items-center edBrandsRow">
+                    <img src="./assets/images/eventsdetails/brand-regal.webp" alt="Regal" class="edBrandLogo">
+                    <img src="./assets/images/eventsdetails/brand-yamaha.webp" alt="Yamaha" class="edBrandLogo">
+                    <img src="./assets/images/eventsdetails/brand-barletta.webp" alt="Barletta" class="edBrandLogo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Separator -->
+    <div class="container-fluid col-xl-10"><div class="edSeparator"></div></div>
+
+    <!-- Inventory On Display -->
+    <section class="edInventorySection">
+        <div class="container-fluid col-xl-10">
+            <h2 class="mainHeading text-center mb-5">Inventory On Display</h2>
+            <!-- Row 1 -->
+            <div class="row mb-4">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="edInventoryCard">
+                        <div class="edInventoryImgWrap"><img src="./assets/images/eventsdetails/boat1.webp" alt="Boat"></div>
+                        <h3 class="eventDate mt-3">23'0" | NEW</h3>
+                        <h2 class="smallHeading text-left mb-1">2026 Barletta Aria 22QC</h2>
+                        <p class="smallHeading text-left">$194,935</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="edInventoryCard">
+                        <div class="edInventoryImgWrap"><img src="./assets/images/eventsdetails/boat2.webp" alt="Boat"></div>
+                        <h3 class="eventDate mt-3">21'4" | NEW</h3>
+                        <h2 class="smallHeading text-left mb-1">2026 Regal LS4 SURF</h2>
+                        <p class="smallHeading text-left">$73,900</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="edInventoryCard">
+                        <div class="edInventoryImgWrap"><img src="./assets/images/eventsdetails/boat3.webp" alt="Boat"></div>
+                        <h3 class="eventDate mt-3">19'2" | NEW</h3>
+                        <h2 class="smallHeading text-left mb-1">2026 Barletta Cabrio 22UC</h2>
+                        <p class="smallHeading text-left">$96,900</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Row 2 -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="edInventoryCard">
+                        <div class="edInventoryImgWrap"><img src="./assets/images/eventsdetails/boat4.webp" alt="Boat"></div>
+                        <h3 class="eventDate mt-3">23'0" | NEW</h3>
+                        <h2 class="smallHeading text-left mb-1">2026 Barletta Aria 22QC</h2>
+                        <p class="smallHeading text-left">$194,935</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="edInventoryCard">
+                        <div class="edInventoryImgWrap"><img src="./assets/images/eventsdetails/boat5.webp" alt="Boat"></div>
+                        <h3 class="eventDate mt-3">21'4" | NEW</h3>
+                        <h2 class="smallHeading text-left mb-1">2026 Regal LS4 SURF</h2>
+                        <p class="smallHeading text-left">$73,900</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="edInventoryCard">
+                        <div class="edInventoryImgWrap"><img src="./assets/images/eventsdetails/boat6.webp" alt="Boat"></div>
+                        <h3 class="eventDate mt-3">19'2" | NEW</h3>
+                        <h2 class="smallHeading text-left mb-1">2026 Barletta Cabrio 22UC</h2>
+                        <p class="smallHeading text-left">$96,900</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form -->
+    <section class="edRegSection" id="edRegistration">
+        <div class="container-fluid col-xl-10">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="edRegImgWrap">
+                        <img src="./assets/images/eventsdetails/registration-bg.webp" alt="Registration">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="edRegFormWrap">
+                        <h2 class="mainHeading text-center mb-4">Registration</h2>
+                        <form>
+                            <div class="form-group"><input type="text" class="form-control edFormField" placeholder="First Name"></div>
+                            <div class="form-group"><input type="text" class="form-control edFormField" placeholder="Last Name"></div>
+                            <div class="form-group"><input type="email" class="form-control edFormField" placeholder="Email"></div>
+                            <div class="form-group"><input type="tel" class="form-control edFormField" placeholder="Phone"></div>
+                            <div class="form-group"><input type="text" class="form-control edFormField" placeholder="Party"></div>
+                            <div class="form-group"><input type="text" class="form-control edFormField" placeholder="Boat You are interested in"></div>
+                            <div class="form-group"><input type="text" class="form-control edFormField" placeholder="Additional Comments"></div>
+                            <button type="submit" class="blackBtn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-fluid"><div class="row"><div class="col-xl-10 col-lg-11 mx-auto"><div class="container-fluid"><div class="row">
+            <div class="col-lg-4 mb-5 mb-lg-0 borderRightFooter"><div class="text-center text-lg-left"><div class="footerLogo"><img src="assets/images/home/header-logo.svg" alt="Footer Logo"></div><div class="footerParaWrap"><p class="paraMainHeading mt-3">Your wife called and said it was OK to buy a boat...your kids are texting too</p></div></div></div>
+            <div class="col-lg-8"><div class="container-fluid"><div class="row justify-content-center">
+                <div class="col-md-4 mb-4 mb-md-0 text-center text-md-left borderRightFooter order-2 order-md-1 px-4"><h4 class="footerMenuItem mb-4">BOATS</h4><ul><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">New Boats For Sale</a></li><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Pre-Owned Boats for Sale</a></li><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Pontoon boats</a></li><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Sport Fish Boats</a></li><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Runabouts</a></li><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Sell My Boat</a></li><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Get Financing</a></li><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Service Center</a></li><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Storage</a></li></ul></div>
+                <div class="col-md-4 mb-4 mb-md-0 text-center text-md-left borderRightFooter order-3 order-md-2 px-4"><h4 class="footerMenuItem mb-4">COMPANY</h4><ul><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Pro Shop</a></li><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Events</a></li><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">News & Articles</a></li><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Our History</a></li><li class="marginBottomFooter"><a href="javascript:void(0)" class="paraText colorBlack">Contact Us</a></li></ul></div>
+                <div class="col-md-4 mb-4 mb-md-0 text-center text-md-left px-4 order-1 order-md-3"><h4 class="joinConversation text-center text-md-left">Join the<br>conversation</h4><div class="footerSubscribeForm"><input type="email" class="footerSubscribeInput" placeholder="Enter Email" aria-label="Enter Email"><button type="submit" class="footerSubscribeBtn">SUBSCRIBE</button></div></div>
+            </div></div></div></div></div></div></div></div>
+        <div class="footerBottom"><ul class="footerBottomList"><li><a href="javascript:void(0)" class="footerBottomLink">Copyrights © 2026 Colorado Boat Center. All Rights Reserved.</a></li><li><a href="/privacy-policy" class="footerBottomLink">Privacy Policy</a></li><li><a href="javascript:void(0)" class="footerBottomLink">Accessibility</a></li><li><a target="_blank" href="https://mdsbrand.com/" class="footerBottomLink">Powered by MDS Brand</a></li></ul></div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

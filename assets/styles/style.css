@@ -669,7 +669,7 @@ a:hover {
     text-align: center;
 }
 
-.secondaryBlueBtn:hover{
+.secondaryBlueBtn:hover {
     color: #009EDD;
 }
 
@@ -959,6 +959,7 @@ a:hover {
 .footer {
     padding-top: 112px;
     min-height: 688px;
+    background-color: #fff;
 }
 
 .footer ul {
@@ -3986,12 +3987,657 @@ a:hover {
     text-overflow: ellipsis;
 }
 
-.welcomToSalesDeptSection{
+.welcomToSalesDeptSection {
     background-color: #262626;
     padding: 80px 0;
 }
 
 /* owner resources page css ends here */
+
+/* about page css starts here */
+.normalSection {
+    background: #262626;
+}
+
+
+.aboutBackgroundSection {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;/
+}
+
+
+.backGroundItem1 {
+    background-image: url('../images/about/first-bg.webp');
+}
+
+.backGroundItem2 {
+    background-image: url('../images/about/second-bg.webp');
+}
+
+.backGroundItem3 {
+    background-image: url('../images/about/third-bg.webp');
+}
+
+.aboutHeaderSection {
+    position: relative;
+    padding-top: 39%;
+}
+
+.aboutHeaderSection .aboutHeaderMedia {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutHeaderSection::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 38, 38, 0.6);
+}
+
+.aboutHeaderContent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    padding: 0 15px;
+    z-index: 3;
+}
+
+.aboutHeaderLogoWrap {
+    max-width: 147px;
+    margin: 0 auto;
+}
+
+.aboutHeaderLogoWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.founderSection {
+    padding: 80px 0;
+}
+
+.founderInnerWrap {
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.whiteColorTag {
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.founderHeaderWrap {
+    margin: 40px 0;
+}
+
+.founderPara {
+    color: #FFF;
+    text-align: center;
+    font-family: "helvetica-light";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.originImageWrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 15px;
+    padding-top: 50%;
+}
+
+.originImageWrapper img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* about page css ends here */
+
+/* ================================================ */
+/* CBC Experience Page Styling Starts Here          */
+/* ================================================ */
+.cbcExpHeroSection {
+    position: relative;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.cbcExpHeroImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cbcExpSection {
+    padding: 0;
+}
+
+.cbcExpRow {
+    min-height: 520px;
+}
+
+.cbcExpTextWrap {
+    max-width: 600px;
+}
+
+.cbcExpImgWrap {
+    position: relative;
+    padding-top: 81.25%;
+    overflow: hidden;
+}
+
+.cbcExpImgWrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cbcExpImgTall {
+    padding-top: 140.625%;
+}
+
+.cbcExpSectionGap {
+    padding-top: 80px;
+}
+
+.cbcExpSectionGap2 {
+    padding-top: 120px;
+}
+
+.cbcExpBtnWrap {
+    margin-top: 48px;
+}
+/* CBC Experience Page Styling Ends Here */
+
+/* ================================================ */
+/* Blog & Blog Post Page Styling Starts Here        */
+/* ================================================ */
+.blogHeroSection,
+.eventsHeroSection {
+    position: relative;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.blogHeroImg,
+.eventsHeroImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blogFilterSection {
+    background-color: #000;
+    padding: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.blogFilterTabs {
+    gap: 78px;
+    justify-content: center;
+    width: 100%;
+}
+
+.blogFilterTab {
+    color: #fff;
+    font-family: "Cinzel";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 64px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    letter-spacing: 0.1em;
+}
+
+.blogFilterTab.active {
+    font-weight: 400;
+    border-bottom: none;
+}
+
+.blogFilterTab:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.blogCardsSection,
+.eventsGridSection {
+    padding: 64px 0 80px;
+}
+
+.eventsRow {
+    margin-bottom: 64px;
+}
+
+.eventsRow:last-child {
+    margin-bottom: 0;
+}
+
+.eventDate {
+    color: #000;
+    font-family: "Cinzel";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.eventDesc {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.blogCard,
+.eventCard {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.blogCard:hover,
+.eventCard:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.blogCardImgWrap,
+.eventCardImgWrap {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    background-color: #C4C4C4;
+}
+
+.blogCardImgWrap img,
+.eventCardImgWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blogCardContent {
+    padding-top: 0;
+}
+
+.blogCardCategory {
+    color: #000;
+    font-family: "Cinzel";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.blogCardTitle {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.blogCardExcerpt {
+    margin-bottom: 24px;
+}
+
+.blogReadMore {
+    color: #009EDD;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.blogRow {
+    margin-bottom: 40px;
+    margin-left: -32px;
+    margin-right: -32px;
+}
+
+.blogRow > .col-lg-4,
+.blogRow > .col-md-6,
+.blogRow > [class*="col-"] {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.blogRow:last-child {
+    margin-bottom: 0;
+}
+
+.blogCard {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.blogCard:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Blog Post Page */
+.blogPostSection {
+    padding: 64px 0 40px;
+}
+
+.blogPostImgWrap {
+    max-width: 1085px;
+    margin: 0 auto;
+    height: 620px;
+    overflow: hidden;
+}
+
+.blogPostImgWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blogPostBody {
+    max-width: 1085px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.blogPostTitle {
+    color: #000;
+    font-family: "Cinzel";
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    margin-bottom: 24px;
+}
+
+.blogPostDate {
+    color: #000;
+    font-family: "Cinzel";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.blogSimilarSection {
+    padding: 0 0 80px;
+}
+
+.blogSimilarSeparator {
+    height: 1px;
+    background-color: #D9D9D9;
+    margin-bottom: 64px;
+}
+
+.blogSimilarHeading {
+    text-align: center;
+    margin-bottom: 48px;
+}
+/* Blog & Blog Post Page Styling Ends Here */
+
+/* ================================================ */
+/* Events Details Page Styling Starts Here          */
+/* ================================================ */
+.eventsSeparator {
+    width: 100%;
+    height: 1px;
+    background-color: #D9D9D9;
+}
+
+.edHeroBanner {
+    position: relative;
+    height: 636px;
+    overflow: hidden;
+}
+
+.edHeroBannerImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.edHeroOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #262626;
+    opacity: 0.6;
+}
+
+.edTitleBar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #262626;
+    padding: 26px 0;
+    z-index: 2;
+}
+
+.edEventTitle {
+    color: #fff;
+    font-family: "Cinzel";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    margin-bottom: 0;
+}
+
+.edRegisterBtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #009EDD;
+    color: #fff;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 16px 36px;
+    text-decoration: none;
+    line-height: 16px;
+}
+
+.edRegisterBtn:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #0088c2;
+}
+
+.edDescSection {
+    padding: 64px 0 72px;
+}
+
+.edDetailsCards {
+    padding: 72px 0 80px;
+    background-color: #F7F7F7;
+}
+
+.edCard {
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 32px;
+    min-height: 200px;
+}
+
+.edCardFull {
+    height: auto;
+}
+
+.edCardIcon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.edCardTitle {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.edGalleryItem {
+    height: 360px;
+    overflow: hidden;
+}
+
+.edGalleryItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.edBrandsSection {
+    padding: 40px 0;
+}
+
+.edBrandsRow {
+    gap: 120px;
+}
+
+.edBrandLogo {
+    height: 60px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.edSeparator {
+    height: 1px;
+    background-color: #D9D9D9;
+}
+
+.edInventorySection {
+    padding: 80px 0;
+}
+
+.edInventoryImgWrap {
+    height: 320px;
+    overflow: hidden;
+}
+
+.edInventoryImgWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.edRegSection {
+    padding: 100px 0;
+    background-color: #E6F5FC;
+}
+
+.edRegImgWrap {
+    height: 600px;
+    max-width: 720px;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #D9D9D9;
+}
+
+.edRegImgWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.edRegFormWrap {
+    max-width: 480px;
+}
+
+.edRegFormWrap .form-group {
+    margin-bottom: 12px;
+}
+
+.edFormField {
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    border-radius: 0;
+    padding: 12px 16px;
+    font-family: "Manrope";
+    font-size: 16px;
+    height: 48px;
+}
+
+.edFormField:focus {
+    box-shadow: none;
+    border-color: #009EDD;
+}
+/* Events Details Page Styling Ends Here */
 
 @media (max-width: 1440px) {
     .mainHeading {
@@ -4732,6 +5378,21 @@ a:hover {
         margin-bottom: 40px;
     }
 
+    /* CBC Experience, Blog, Events Responsive - 991px */
+    .cbcExpHeroSection { height: 400px; }
+    .cbcExpSectionGap, .cbcExpSectionGap2 { padding-top: 60px; }
+    .cbcExpRow { min-height: auto; }
+    .blogHeroSection, .eventsHeroSection { height: 400px; }
+    .blogFilterTabs { gap: 32px; }
+    .blogFilterTab { font-size: 16px; }
+    .edHeroBanner { height: 450px; }
+    .edEventTitle { font-size: 32px; line-height: 40px; }
+    .edGalleryItem { height: 250px; }
+    .edInventoryImgWrap { height: 240px; }
+    .edRegImgWrap { height: 400px; }
+    .edBrandsRow { gap: 40px; }
+    .edBrandLogo { height: 48px; width: 150px; }
+
     /* Start Your Boat Journey Responsive - 768px */
     .sybHeroSection {
         height: 350px;
@@ -4906,6 +5567,16 @@ a:hover {
         margin-bottom: 32px;
     }
 
+    /* CBC Experience, Blog, Events Responsive - 768px */
+    .cbcExpHeroSection { height: 350px; }
+    .cbcExpSectionGap, .cbcExpSectionGap2 { padding-top: 40px; }
+    .blogHeroSection, .eventsHeroSection { height: 350px; }
+    .edHeroBanner { height: 400px; }
+    .edEventTitle { font-size: 24px; line-height: 32px; }
+    .edGalleryItem { height: 200px; }
+    .edInventoryImgWrap { height: 200px; }
+    .edRegImgWrap { height: 300px; }
+
     /* Start Your Boat Journey Responsive - 576px */
     .sybHeroSection {
         height: 280px;
@@ -5047,4 +5718,28 @@ a:hover {
     .sybProcessHeader {
         margin-bottom: 24px;
     }
+
+    /* CBC Experience, Blog, Events Responsive - 576px */
+    .cbcExpHeroSection { height: 280px; }
+    .cbcExpSectionGap, .cbcExpSectionGap2 { padding-top: 30px; }
+    .cbcExpBtnWrap { margin-top: 24px; }
+    .cbcExpImgTall { padding-top: 100%; }
+    .blogHeroSection, .eventsHeroSection { height: 280px; }
+    .blogFilterTabs { gap: 16px; }
+    .blogFilterTab { font-size: 13px; line-height: 48px; }
+    .blogFilterSection { height: 60px; }
+    .blogCardTitle { font-size: 22px; line-height: 28px; }
+    .blogRow { margin-bottom: 32px; }
+    .edHeroBanner { height: 320px; }
+    .edEventTitle { font-size: 20px; line-height: 28px; margin-bottom: 12px; }
+    .edRegisterBtn { padding: 12px 24px; font-size: 14px; }
+    .edGalleryItem { height: 150px; }
+    .edInventoryImgWrap { height: 180px; }
+    .edRegImgWrap { height: 250px; }
+    .edBrandsRow { gap: 24px; }
+    .edBrandLogo { height: 36px; width: 120px; }
+    .edDetailsCards { padding: 40px 0; }
+    .edDescSection { padding: 40px 0; }
+    .edInventorySection { padding: 40px 0; }
+    .edRegSection { padding: 40px 0; }
 }
